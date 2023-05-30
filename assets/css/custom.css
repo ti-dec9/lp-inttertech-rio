@@ -1,0 +1,25 @@
+/* CUSTOM */
+
+.banner-section .single-box {
+    padding: 30px 15px 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(213, 213, 213, 0.25);
+    border-radius: 10px;
+    text-align: center;
+    height: 175px;
+}
+
+.banner-section .single-box h6 {
+    width: 60%;
+    margin: auto;
+    margin-top: 12px;
+}
+
+.text-blue {
+    color: #0055DE;
+}
+
+.header-section .navbar .navbar-collapse .navbar-nav .nav-item .nav-link,
+.header-section .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item {
+    font-size: 14px;
+}
