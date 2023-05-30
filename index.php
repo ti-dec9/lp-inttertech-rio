@@ -46,7 +46,7 @@
                                     <h1 class="mb-3">CONTROLADOR DE TEMPERATURA E PROCESSOS WEST 6100+ | P6100+</h1>
                                 </div>
                                 <div class="btn-area gap-3 d-flex flex-wrap">
-                                    <a href="contato.php" class="cmn-btn" style="padding: 15px 30px;">Fale com um vendedor</a>
+                                    <a href="index.php#contato" class="cmn-btn" style="padding: 15px 30px;">Fale com um vendedor</a>
                                 </div>
                             </div>
                         </div>
@@ -447,7 +447,7 @@
                                     </li>
                                 </ul>
                                 <div class="btn-area mt-4 d-flex gap-4 align-items-center">
-                                    <a href="contato.php" class="cmn-btn"><i class="icon-f-cart text-white"></i>&nbsp;Comprar</a>
+                                    <a href="index.php#contato" class="cmn-btn"><i class="icon-f-cart text-white"></i>&nbsp;Comprar</a>
                                     
                                 </div>
                             </div>
