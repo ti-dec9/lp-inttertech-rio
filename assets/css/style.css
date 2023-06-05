@@ -119,12 +119,12 @@ img {
   direction: rtl;
 }
 
-ul,
+/* ul,
 ol {
   padding: 0;
   margin: 0;
   list-style: none;
-}
+} */
 
 button {
   border: none;
