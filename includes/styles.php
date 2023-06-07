@@ -7,8 +7,8 @@
 <link rel="stylesheet" href="assets/css/plugin/nice-select.css">
 <link rel="stylesheet" href="assets/css/arafat-font.css">
 <link rel="stylesheet" href="assets/css/plugin/animate.css">
-<link rel="stylesheet" href="assets/css/style.css?v=258525">
-<link rel="stylesheet" href="assets/css/custom.css?v=258525">
+<link rel="stylesheet" href="assets/css/style.css?v=258526">
+<link rel="stylesheet" href="assets/css/custom.css?v=258526">
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

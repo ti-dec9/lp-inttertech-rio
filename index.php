@@ -228,6 +228,140 @@
                             recursos semelhantes, e é essencial consultar as especificações técnicas e orientações do
                             fabricante para determinar a adequação do produto para a sua aplicação específica.</p>
                     </div>
+
+                    <div class="col-lg-12">
+                        <br>
+                        <h6>4 - COMO ERA A VERSÃO ANTIGA DO CONTROLADOR DE TEMPERATURA E PROCESSOS WEST 6100+ | P6100+?
+                        </h6>
+                        <br>
+                        <p>O controlador de temperatura West 6100+ tem diversas funcionalidades adicionais em relação à
+                            sua versão anterior, N6100. Algumas dessas funcionalidades incluem entradas de setpoint
+                            remotas, entradas digitais, módulos de saída plug-in, um menu operador/HMI personalizável,
+                            configuração sem jumper e fonte de alimentação para os sensores (24VCC).</p>
+                        <p>Além disso, o controlador West 6100+ tem um setpoint duplo com seleção remota opcional,
+                            histerese ajustável, entrada de setpoint remoto analógicoopcional, saída SSR driver 10V,
+                            mais opções de segurança, jumperless input configuration, auto-hardware recognition, faster
+                            communication speeds e é backward compatible com o painel de corte, caixa e capacidade de
+                            fiação terminal da versão anterior. Em resumo, o controlador West 6100+ tem diversas
+                            funcionalidades adicionais que o tornam mais versátil e fácil de usar em comparação com a
+                            versão anterior, N6100.</p>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <br>
+                        <h6>5 - QUAIS AS VANTAGENS DO CONTROLADOR DE TEMPERATURA E PROCESSOS WEST 6100+ | P6100+?</h6>
+                        <br>
+                        <ol>
+                            <li>Precisão de controle: O West 6100+ | P6100+ utiliza o algoritmo PID
+                                (Proporcional-Integral-Derivativo) para ajustar a saída de controle de forma precisa e
+                                rápida. Isso permite que o controlador mantenha a temperatura desejada com alta
+                                precisão, reduzindo oscilações e melhorando a estabilidade do processo.</li>
+                            <li>Interface intuitiva: O controlador possui uma interface de usuário intuitiva com um
+                                display digital e teclado integrado, o que facilita a configuração e operação do
+                                dispositivo. Isso permite que os usuários ajustem facilmente os parâmetros de controle e
+                                monitorem as informações relevantes.</li>
+                            <li>Versatilidade e flexibilidade: O West 6100+ | P6100+ é um controlador versátil que pode
+                                ser configurado para se adaptar a diferentes aplicações e processos industriais. Ele
+                                oferece uma variedade de opções de configuração, como seleção de unidades de
+                                temperatura, ajuste de parâmetros de controle e personalização das configurações,
+                                permitindo a adaptação às necessidades específicas de cada aplicação.</li>
+                            <li>Alarmes e notificações: O controlador possui recursos de alarme configuráveis que
+                                alertam os usuários caso ocorram desvios de temperatura ou problemas no sistema. Isso
+                                ajuda a identificar e solucionar problemas rapidamente, minimizando o tempo de
+                                inatividade e reduzindo a possibilidade de ocorrência de falhas graves.</li>
+                            <li>Comunicação e conectividade: Alguns modelos do West 6100+ | P6100+ possuem recursos de
+                                comunicação, como interfaces serial ou Ethernet, que permitem a integração com sistemas
+                                de supervisão e controle (SCADA) ou outras soluções de automação. Isso possibilita o
+                                monitoramento remoto, a coleta de dados e o controle centralizado do processo.</li>
+                            <li>Confiabilidade e durabilidade: Os controladores West são conhecidos por sua qualidade e
+                                confiabilidade. Eles são projetados para suportar ambientes industriais desafiadores e
+                                oferecer desempenho consistente ao longo do tempo. Além disso, possuem uma construção
+                                robusta que os torna adequados para uma variedade de aplicações industriais exigentes.
+                            </li>
+                        </ol>
+                        <p>Essas são apenas algumas das vantagens gerais associadas ao Controlador de Temperatura e
+                            Processos West 6100+ | P6100+. É importante consultar as especificações e recursos
+                            específicos do modelo desejado, pois as vantagens podem variar dependendo das
+                            características específicas do controlador.</p>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <br>
+                        <h6>6 - QUAL É A DOR QUE O CONTROLADOR DE TEMPERATURA E PROCESSOS WEST 6100+ | P6100+ RESOLVE?
+                        </h6>
+                        <br>
+                        <p>O Controlador de Temperatura e Processos West 6100+ | P6100+ resolve a dor de ter um controle
+                            impreciso ou inadequado da temperatura em aplicações industriais. Ele oferece uma solução
+                            para controlar de forma precisa e confiável a temperatura em diversos processos, evitando
+                            problemas relacionados a variações de temperatura indesejadas.</p>
+                        <p>Alguns exemplos de dores que esse controlador pode resolver incluem:</p>
+                        <ol>
+                            <li>Inconsistência de temperatura: Em muitos processos industriais, manter uma temperatura
+                                constante e precisa é crucial para obter produtos de alta qualidade. O West 6100+ |
+                                P6100+ garante um controle preciso da temperatura, reduzindo as flutuações e
+                                inconsistências que podem afetar negativamente a qualidade do produto final.</li>
+                            <li>Desperdício de energia: Quando o controle de temperatura não é adequado, os sistemas
+                                podem operar desnecessariamente em altas temperaturas ou consumir energia em excesso. O
+                                controlador West 6100+ | P6100+ ajuda a otimizar o consumo de energia, ajustando a saída
+                                de controle de acordo com as necessidades reais e evitando o desperdício energético.
+                            </li>
+                            <li>Falhas no processo: Variações indesejadas de temperatura podem levar a falhas no
+                                processo e diminuição da eficiência. O controlador West 6100+ | P6100+ monitora
+                                constantemente a temperatura e emite alarmes caso ocorram desvios além dos limites
+                                definidos, permitindo uma ação corretiva imediata e evitando problemas mais graves.</li>
+                            <li>Baixa produtividade: Quando a temperatura não é controlada de forma adequada, pode haver
+                                impacto negativo na produtividade dos processos. O West 6100+ | P6100+ garante um
+                                controle preciso da temperatura, ajudando a manter uma produção consistente e eficiente.
+                            </li>
+                            <li>Conformidade com normas e regulamentos: Em certas indústrias, existem normas e
+                                regulamentos que exigem um controle preciso da temperatura. O controlador West 6100+ |
+                                P6100+ ajuda a garantir a conformidade com essas exigências, permitindo que as empresas
+                                atendam aos padrões e evitem penalidades legais.</li>
+                        </ol>
+                        <li>Em resumo, o Controlador de Temperatura e Processos West 6100+ | P6100+ resolve a dor de não
+                            ter um controle preciso e confiável da temperatura em processos industriais, proporcionando
+                            uma solução confiável para garantir a qualidade, eficiência e conformidade em várias
+                            aplicações industriais.</li>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <br>
+                        <h6>7 - O COMPRADOR DO CONTROLADOR DE TEMPERATURA E PROCESSOS WEST 6100+ | P6100+ BUSCA POR QUAL
+                            SOLUÇÃO?</h6>
+                        <br>
+                        <p>O comprador do Controlador de Temperatura e Processos West 6100+ | P6100+ busca por uma
+                            solução que ofereça controle preciso e confiável da temperatura em processos industriais.
+                            Eles desejam uma solução que atenda às necessidades específicas da aplicação e que resolva
+                            os desafios relacionados ao controle de temperatura.</p>
+                        <p>Alguns dos principais pontos que o comprador busca ao adquirir o West 6100+ | P6100+ são:</p>
+                        <ol>
+                            <li>Precisão: O comprador procura um controlador que ofereça controle preciso da
+                                temperatura, garantindo que ela seja mantida dentro de limites definidos com alta
+                                precisão. Isso é particularmente importante em processos onde a qualidade do produto
+                                final depende de uma temperatura controlada com precisão.</li>
+                            <li>Confiabilidade: O comprador busca por um controlador confiável, capaz de operar de forma
+                                consistente e sem falhas ao longo do tempo. Isso é fundamental para garantir a
+                                continuidade do processo e evitar tempo de inatividade não planejado.</li>
+                            <li>Flexibilidade: É desejável que o controlador seja flexível o suficiente para se adaptar
+                                às necessidades da aplicação específica. O comprador procura uma solução que permita
+                                configuração personalizada, ajuste de parâmetros de controle e adaptação a diferentes
+                                ambientes e requisitos de processo.</li>
+                            <li>Usabilidade: O comprador busca por um controlador que seja fácil de usar e de
+                                configurar. Uma interface intuitiva, com display e teclado de fácil navegação, facilita
+                                a configuração dos parâmetros de controle e a visualização das informações relevantes.
+                            </li>
+                            <li>Recursos de comunicação: Em alguns casos, o comprador pode buscar por um controlador com
+                                recursos de comunicação, como interfaces serial ou Ethernet, para integração com
+                                sistemas de supervisão e controle (SCADA) ou outras soluções de automação.</li>
+                            <li>Suporte técnico: O comprador valoriza um bom suporte técnico por parte do fabricante.
+                                Isso inclui disponibilidade de documentação, assistência técnica e orientação para
+                                ajudar na configuração, instalação e solução de problemas relacionados ao controlador.
+                            </li>
+                        </ol>
+                        <li>Cada aplicação e setor industrial podem ter requisitos específicos adicionais, mas esses são
+                            alguns dos principais aspectos que um comprador busca ao adquirir o Controlador de
+                            Temperatura e Processos West 6100+ | P6100+.</li>
+                    </div>
                 </div>
             </div>
         </div>
@@ -258,27 +392,6 @@
                                 eventual necessidade de assistência técnica, combinando o pronto-atendimento à qualidade
                                 de serviços prestados, visando estabelecer um relacionamento duradouro com cada um de
                                 seus clientes.</p>
-                            <!-- <ul>
-                                <li>Analisadores multigases</li>
-                                <li>Calibradores de pressão e elétrica</li>
-                                <li>Manômetros digitais fixos e portáteis</li>
-                                <li>Sistemas de condicionamento de amostras</li>
-                                <li>Calorímetros para medição de índice de Wobbe, poder calorífico</li>
-                                <li>Densidade específica em biogás, gás natural, gases de processo para cogeração ou custódia para compra de energia</li>
-                                <li>Sensores e medidores de nível para líquidos, granel e sólidos, contínuo e pontual</li>
-                                <li>Medidores de pressão, de vazão, de umidade (relativa, absoluta e dew point), de pH, de oxigênio dissolvido, de turbidez, de condutividade, processos CIP</li>
-                                <li>Instrumentação sanitária para alimentação/bebidas & pharma</li>
-                                <li>Controladores de processo e temperatura</li>
-                                <li>Medidores de índice de refração/BRIX</li>
-                                <li>Datalogger sem papel</li>
-                                <li>Contadores de golpes, de voltas, de pulsos</li>
-                                <li>Tacômetros digitais</li>
-                                <li>Encoders bidirecionais, encoders incrementais,</li>
-                                <li>Sensores de medição de velocidade</li>
-                                <li>Aceleração e posição</li>
-                                <li>Células de carga para pontes rolantes, guindastes, bags para testes de carga, gerenciamento e inventário industrial, micro-célula/strain gauge</li>
-                            </ul>
-                            <p>Nosso foco principal é a indústria, porém a diversidade de linhas aumenta a capilaridade e nos permite atender pequenas empresas, startups e outros negócios que aumentam a consolidação da Inttertech Rio no mercado.</p> -->
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -304,10 +417,130 @@
                     </div>
                 </div>
                 <div class="row cus-mar align-items-center">
-                    <div class="col-xl-3 col-lg-4 col-sm-6">
+
+                    <div class="col-lg-12 table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Item</th>
+                                    <th scope="col">P6100 (novo)</th>
+                                    <th scope="col">N6100 (antigo)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row" colspan="1">1 - Interface homem - máquina</th>
+                                    <td>mais 5 LEDs para indicação</td>
+                                    <td>mais 3 LEDs para indicação</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" colspan="1">2 - Entradas</th>
+                                    <td>                                        
+                                        <table class="table">
+                                            <tbody>
+                                                <tr>
+                                                    <td><strong>Temporar:</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>acréscimo de PtRh20%vs PtRh40%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Impedância:</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10 MΩ para as faixas de termopar e mV e 5 Ω para as faixas de mA</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Precisão:</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>± 0,1% da faixa de entrada ± 1 LSD (CJC do termopar melhor que 1º C)</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>                                        
+                                    </td>
+                                    <td>                                        
+                                        <table class="table">
+                                            <tbody>
+                                                <tr>
+                                                    <td><strong>Temporar:</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>em relação ao modelo anterior</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Impedância:</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>> 100 MΩ para as faixas de termopar e mV e 4.7 Ω para as faixas de mA</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Precisão:</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>± 0,1% da faixa de entrada ± 1 LSD (CJC do termopar melhor que 1º C)</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" colspan="1">3 - Saídas</th>
+                                    <td>
+                                        <table class="table">
+                                            <tbody>
+                                                <tr>
+                                                    <td><strong>Saída SSR de controle:</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Capacidade de drive > 10 Vc.c. mínima em 500Ω</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Saídas lineares:</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>0-20 mA, 4-20 mA em 500Ω máx., 0-10V, 2-20V, 0-5V em 500Ω min. Às saídas de controle aplica-se 2% de overdrive/underdrive. Precisão ± 0,25% a 250Ω (degrada linearmente a 0,5% para carga em aumento até limites especificados)</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                    <td colspan="3">
+                                        <table class="table">
+                                            <tbody>
+                                                <tr>
+                                                    <td><strong>Saída SSR de controle:</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Capacidade de drive > 4,2 DC em 1KΩ mínimo (versão 10V 500Ω disponível)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Saídas lineares:</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>0-20/4-20 mA em 500Ω máx., 0-10/0-5V em 500Ω min. Precisão ± 0,5%</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <table class="table" style="background-color: yellow;">
+                                            <tbody>
+                                                <tr>
+                                                    <td><strong>Retransmissores de saída:</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>0-20/4-20 mA em 500Ω máx., 0-10/0-5V em 500Ω min. Precisão ± 0,25%</td>
+                                                </tr>                                                
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="single-box">
                             <div class="img-area">
-                                <!-- <img src="assets/images/icon/features-icon-1.png" alt="icon"> -->
+                                <!-- <img src="assets/images/icon/features-icon-1.png" alt="icon"> --
                             </div>
                             <div class="text-area">
                                 <h6>Setpoint duplo <br><br></h6>
@@ -317,7 +550,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="single-box">
                             <div class="img-area">
-                                <!-- <img src="assets/images/icon/features-icon-2.png" alt="icon"> -->
+                                <!-- <img src="assets/images/icon/features-icon-2.png" alt="icon"> --
                             </div>
                             <div class="text-area">
                                 <h6>Módulos de saí­da plug-in</h6>
@@ -327,7 +560,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="single-box">
                             <div class="img-area">
-                                <!-- <img src="assets/images/icon/features-icon-3.png" alt="icon"> -->
+                                <!-- <img src="assets/images/icon/features-icon-3.png" alt="icon"> --
                             </div>
                             <div class="text-area">
                                 <h6>Modo de operador ampliado</h6>
@@ -337,7 +570,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="single-box">
                             <div class="img-area">
-                                <!-- <img src="assets/images/icon/features-icon-4.png" alt="icon"> -->
+                                <!-- <img src="assets/images/icon/features-icon-4.png" alt="icon"> --
                             </div>
                             <div class="text-area">
                                 <h6>Histerese ajustável</h6>
@@ -347,7 +580,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="single-box">
                             <div class="img-area">
-                                <!-- <img src="assets/images/icon/features-icon-5.png" alt="icon"> -->
+                                <!-- <img src="assets/images/icon/features-icon-5.png" alt="icon"> --
                             </div>
                             <div class="text-area">
                                 <h6>Cartões de saída plug-and-play</h6>
@@ -357,7 +590,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="single-box">
                             <div class="img-area">
-                                <!-- <img src="assets/images/icon/features-icon-6.png" alt="icon"> -->
+                                <!-- <img src="assets/images/icon/features-icon-6.png" alt="icon"> --
                             </div>
                             <div class="text-area">
                                 <h6>Alarmes de processo e loop</h6>
@@ -367,7 +600,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="single-box">
                             <div class="img-area">
-                                <!-- <img src="assets/images/icon/features-icon-6.png" alt="icon"> -->
+                                <!-- <img src="assets/images/icon/features-icon-6.png" alt="icon"> --
                             </div>
                             <div class="text-area">
                                 <h6>Entrada de Setpoint Remoto Analógico opcional</h6>
@@ -377,7 +610,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="single-box">
                             <div class="img-area">
-                                <!-- <img src="assets/images/icon/features-icon-6.png" alt="icon"> -->
+                                <!-- <img src="assets/images/icon/features-icon-6.png" alt="icon"> --
                             </div>
                             <div class="text-area">
                                 <h6>Saída SSR Driver 10V opcional</h6>
@@ -387,7 +620,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="single-box">
                             <div class="img-area">
-                                <!-- <img src="assets/images/icon/features-icon-6.png" alt="icon"> -->
+                                <!-- <img src="assets/images/icon/features-icon-6.png" alt="icon"> --
                             </div>
                             <div class="text-area">
                                 <h6>Melhor software de configuração via Windows PC</h6>
@@ -397,7 +630,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="single-box">
                             <div class="img-area">
-                                <!-- <img src="assets/images/icon/features-icon-6.png" alt="icon"> -->
+                                <!-- <img src="assets/images/icon/features-icon-6.png" alt="icon"> --
                             </div>
                             <div class="text-area">
                                 <h6>IHM melhorada e fácil de usar</h6>
@@ -407,7 +640,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="single-box">
                             <div class="img-area">
-                                <!-- <img src="assets/images/icon/features-icon-6.png" alt="icon"> -->
+                                <!-- <img src="assets/images/icon/features-icon-6.png" alt="icon"> --
                             </div>
                             <div class="text-area">
                                 <h6>Configuração de entrada sem jumper</h6>
@@ -417,7 +650,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="single-box">
                             <div class="img-area">
-                                <!-- <img src="assets/images/icon/features-icon-6.png" alt="icon"> -->
+                                <!-- <img src="assets/images/icon/features-icon-6.png" alt="icon"> --
                             </div>
                             <div class="text-area">
                                 <h6>Reconhecimento automático de hardware</h6>
@@ -427,7 +660,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="single-box">
                             <div class="img-area">
-                                <!-- <img src="assets/images/icon/features-icon-6.png" alt="icon"> -->
+                                <!-- <img src="assets/images/icon/features-icon-6.png" alt="icon"> --
                             </div>
                             <div class="text-area">
                                 <h6>Velocidades de comunicação mais rápidas</h6>
@@ -437,13 +670,13 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="single-box">
                             <div class="img-area">
-                                <!-- <img src="assets/images/icon/features-icon-6.png" alt="icon"> -->
+                                <!-- <img src="assets/images/icon/features-icon-6.png" alt="icon"> --
                             </div>
                             <div class="text-area">
                                 <h6>Mais opções de segurança</h6>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -689,35 +922,43 @@
         <i style="margin-top:16px" class="fa fa-whatsapp"></i>
     </a> -->
     <!-- CTA WPP - Button trigger modal -->
-    <button class="cta-wpp" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <button class="cta-wpp" data-bs-toggle="modal" data-bs-target="#cta-modal">
         <i style="margin-top:3px" class="fa fa-whatsapp"></i>
     </button>
 
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="cta-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Solicite um orçamento</h1>
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/images/logo-icon-modal.jpg" class="logo" alt="">
+                        </div>
+                        <div class="col-10">
+                            <h1 class="modal-title pt-3 fs-5" id="exampleModalLabel">Solicite um orçamento</h1>
+                            <p>Online</p>
+                        </div>
+                    </div>
+
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <p>Olá! Que tal receber um orçamento sem custo? Por favor, informe seu nome, e-mail, telefone e o
+                        tipo de cabo que está procurando. =)</p>
+                    <form class="form-cta-wpp" action="send.php">
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Nome</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Nome *"
+                                aria-describedby="emailHelp" required>
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="exampleInputPassword1">
+                            <input type="email" class="form-control" placeholder="E-mail *" required>
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Telefone</label>
-                            <input type="text" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
+                            <input type="text" class="form-control" placeholder="Telefone" id="phone" required>
+                        </div>                        
+                        <button type="submit" class="btn btn-primary d-flex justify-content-end">Iniciar conversa</button>                        
                     </form>
                 </div>
             </div>
@@ -727,12 +968,28 @@
     <!-- Footer Area Start -->
     <?php include('includes/footer.php'); ?>
     <!-- Footer Area End -->
-    <?php include('includes/scripts.php'); ?>
+
+    <!--==================================================================-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugin/slick.js"></script>
+    <script src="assets/js/plugin/counter.js"></script>
+    <script src="assets/js/plugin/waypoint.min.js"></script>
+    <script src="assets/js/plugin/jquery.nice-select.min.js"></script>
+    <script src="assets/js/plugin/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/plugin/wow.min.js"></script>
+    <script src="assets/js/plugin/jquery.inputmask.min.js"></script>
+    <script src="assets/js/plugin/plugin.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/78bb8de998.js" crossorigin="anonymous"></script>
 
     <script>
         $(".cta-wpp").on('click', function() {
             console.log('cta-wpp clicked');
         });
+
+        $('#phone').inputmask({"mask": ["(99) 9999-9999", "(99) 99999-9999"], keepStatic: true}); 
     </script>
 </body>
 

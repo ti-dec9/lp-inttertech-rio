@@ -41,3 +41,40 @@
     box-shadow: 1px 1px 2px #888;
     z-index: 1000;
 }
+
+#cta-modal .modal-content .modal-header {
+    background-color: #0B6156;    
+}
+
+#cta-modal .modal-content .modal-header p,
+#cta-modal .modal-content .modal-header .modal-title {
+    color: #fff;
+}
+
+
+#cta-modal .modal-body {
+    background-image: url('../images/bg-wpp.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cta-modal .modal-content .modal-header .logo {
+    width: 100%;
+    height: auto;
+}
+
+#cta-modal .modal-body .form-cta-wpp input {
+    background-color: #e7ffe7;
+    font-size: 1rem;
+}
+
+#cta-modal .modal-body .form-cta-wpp input::placeholder { 
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+#cta-modal .btn-primary {
+    background-color: #0B6156; 
+    font-weight: 400;
+    font-size: 0.9rem;
+}

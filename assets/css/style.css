@@ -189,10 +189,14 @@ span {
   display: inline-block;
 }
 
-.table thead th,
+/* .table thead th,
 .table td,
 .table th {
   border: none;
+} */
+
+.table>:not(caption)>*>* {
+  font-size: 0.9rem;
 }
 
 .b-none {
