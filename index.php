@@ -739,7 +739,7 @@
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-6">
                         <div class="section-text text-center">
-                            <h2 class="title">Não deixe pra depois, compre agora</h2>
+                            <h2 class="title">Tenha controle preciso e confiável, solicite agora um orçamento</h2>
                             <p></p>
                         </div>
                     </div>
