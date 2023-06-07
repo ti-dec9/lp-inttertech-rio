@@ -43,13 +43,11 @@
                         <div class="col-xl-6 col-md-9">
                             <div class="main-content">
                                 <div class="top-area section-text">
-                                    <p class="xlr mb-5">O controlador WEST 6100+ é um produto evoluído da versão
-                                        anterior, N6100.</p>
+                                    <p class="xlr mb-5">Mais precisão e muito menos manutenção!</p>
                                     <h1 class="mb-3">CONTROLADOR DE TEMPERATURA E PROCESSOS WEST 6100+ | P6100+</h1>
                                 </div>
                                 <div class="btn-area gap-3 d-flex flex-wrap">
-                                    <a href="index.php#contato" class="cmn-btn" style="padding: 15px 30px;">Fale com um
-                                        vendedor</a>
+                                    <a href="#contato" class="cmn-btn" style="padding: 15px 30px;">Fale com um vendedor</a>
                                 </div>
                             </div>
                         </div>
@@ -107,9 +105,11 @@
                 <div class="row align-items-center justify-content-end">
                     <div class="col-xxl-6 col-lg-6 order-lg-0 order-1">
                         <div class="sec-img">
-                            <img src="assets/images/Controladores-de-Temperatura-e-Processos-P6100-West.avif"
-                                alt="image">
+                            <img src="assets/images/Controladores-de-Temperatura-e-Processos-P6100-West.avif" alt="image">
                         </div>
+                        <p class="text-center">
+                            <a href="#contato" class="cmn-btn d-sm-none" style="padding: 15px 30px;">Fale com um vendedor</a>
+                        </p>
                     </div>
                     <div class="col-xxl-6 col-lg-6">
                         <div class="section-text">
@@ -119,30 +119,39 @@
                                 facilidade de uso a novos níveis. O controlador WEST 6100+ um produto evoluído da versão
                                 anterior, N6100.</p>
                             <br> -->
-                            <h6>1 - ONDE UTILIZAR O CONTROLADOR DE TEMPERATURA E PROCESSOS WEST 6100+ | P6100+?</h6>
+                            <h6>O QUE É O CONTROLADOR DE TEMPERATURA E PROCESSOS WEST 6100+ | P6100+?</h6>
                             <br>
-                            <p>O Controlador de Temperatura e Processos West 6100+ | P6100+ é um
-                                dispositivo usado para monitorar e controlar a temperatura em diversas
-                                aplicações industriais. Ele pode ser utilizado em processos que exigem
-                                controle preciso de temperatura, como em fornos, estufas, câmaras
-                                climáticas, sistemas de aquecimento e resfriamento, entre outros.
-                                Algumas situações em que o Controlador de Temperatura e Processos West
-                                6100+ | P6100+ pode ser utilizado incluem:
-                            <ol>
-                                <li>Indústria alimentícia: Para controlar a temperatura em fornos de panificação,
-                                    estufas de fermentação, máquinas de embalagem de alimentos, entre outros processos
-                                    de produção de alimentos.</li>
-                                <li>Indústria química: Em reatores químicos, destilação, controle de temperatura em
-                                    tanques de armazenamento e processos de refino.</li>
-                                <li>Indústria farmacêutica: Para controlar a temperatura em estufas de secagem,
-                                    autoclaves, fermentadores, entre outros equipamentos utilizados na produção de
-                                    medicamentos.</li>
-                                <li>Indústria de plásticos: Em moldagem por injeção, extrusão, sopradoras, onde é
-                                    necessário manter a temperatura adequada para obter produtos de qualidade.</li>
-                                <li>Indústria de energia: Em caldeiras, turbinas, sistemas de resfriamento e aquecimento
-                                    em usinas elétricas.</li>
-                            </ol>
-                            </p>
+                            <p>O Controlador de Temperatura e Processos West 6100+ | P6100+ é um dispositivo eletrônico
+                                utilizado para monitorar e controlar a temperatura em uma variedade de aplicações
+                                industriais. Ele faz parte da linha de produtos da West Control Solutions, uma empresa
+                                especializada em soluções de controle de processos.</p>
+                            <p>O West 6100+ | P6100+ é projetado para oferecer controle preciso e confiável da temperatura
+                                em diferentes ambientes e processos industriais. Ele possui uma tela de exibição digital que
+                                permite a visualização fácil e clara das informações, como a temperatura atual, ajustes de
+                                controle e alarmes.</p>
+                            <p>Alguns recursos e funcionalidades típicas do Controlador de Temperatura e Processos West
+                                6100+ | P6100+ incluem:</p>
+                            <ul>
+                                <li>Controle PID: O controlador utiliza o algoritmo PID (Proporcional-Integral-Derivativo)
+                                    para ajustar a saída de controle e manter a temperatura desejada com alta precisão.</li>
+                                <li>Programação e perfis de rampa: Ele permite a criação de perfis de rampa de temperatura,
+                                    onde é possível programar diferentes etapas de controle ao longo do tempo. Isso é útil
+                                    em processos que requerem mudanças graduais de temperatura.</li>
+                                <li>Alarmes e notificações: O controlador pode ser configurado para emitir alarmes audíveis
+                                    ou visuais caso a temperatura ultrapasse os limites definidos ou ocorra algum problema
+                                    no sistema.</li>                            
+                                <li>Comunicação e conectividade: Alguns modelos do West 6100+ | P6100+ possuem recursos de
+                                    comunicação, como interfaces serial ou Ethernet, permitindo a integração com sistemas de
+                                    supervisão e controle (SCADA) ou outras soluções de automação.</li>
+                                <li>Configuração flexível: O controlador oferece opções de configuração flexíveis, como
+                                    seleção de unidades de temperatura, calibração de sensores, ajuste de parâmetros de
+                                    controle e personalização das configurações de acordo com a aplicação específica.</li>
+                            </ul>
+                            <!-- <p>É importante ressaltar que o Controlador de Temperatura e Processos West 6100+ | P6100+ é
+                                apenas um exemplo de controlador disponível no mercado. Existem outras marcas e modelos com
+                                recursos semelhantes, e é essencial consultar as especificações técnicas e orientações do
+                                fabricante para determinar a adequação do produto para a sua aplicação específica.</p> -->
+                            
                         </div>
                         <!-- <div class="row cus-mar">
                             <div class="col-lg-6 col-md-6">
@@ -159,14 +168,14 @@
                     </div>
 
                     <div class="col-lg-12">
-                        <h6>2 - EM QUAIS SITUAÇÕES UTILIZAMOS O CONTROLADOR DE TEMPERATURA?</h6>
+                        <h6>EM QUAIS SITUAÇÕES UTILIZAMOS O CONTROLADOR DE TEMPERATURA?</h6>
                         <br>
                         <p>
                             O Controlador de Temperatura e Processos West 6100+ | P6100+ é um dispositivo versátil e
                             pode ser utilizado em várias situações em que o controle preciso e confiável da temperatura
                             é necessário. Alguns exemplos de situações em que esse controlador pode ser utilizado
                             incluem: </p>
-                        <ol>
+                        <ul>
                             <li>Controle de temperatura em processos industriais: O Controlador West 6100+ | P6100+ pode
                                 ser aplicado em uma ampla variedade de processos industriais, como aquecimento,
                                 resfriamento, secagem, fermentação, esterilização, entre outros. Ele fornece controle
@@ -185,51 +194,46 @@
                             <li>Automação de processos: O Controlador West 6100+ | P6100+ pode ser integrado a sistemas
                                 de automação industrial para controle de temperatura em linhas de produção, garantindo a
                                 consistência e precisão do processo.</li>
-                        </ol>
+                        </ul>
 
                         <p>É importante observar que as possibilidades de aplicação do Controlador de Temperatura e
                             Processos West 6100+ | P6100+ são diversas e podem variar dependendo da indústria, processo
+                            e necessidades específicas de cada aplicação. Entre em contato conosco para consultar se o West 6100 + é adequado para sua situação.</p>
+                        <!-- <p>É importante observar que as possibilidades de aplicação do Controlador de Temperatura e
+                            Processos West 6100+ | P6100+ são diversas e podem variar dependendo da indústria, processo
                             e necessidades específicas de cada aplicação. É recomendado consultar as especificações
                             técnicas e orientações do fabricante para determinar se esse controlador é adequado para a
-                            sua situação particular.</p>
+                            sua situação particular.</p> -->
                     </div>
                     <div class="col-lg-12">
                         <br>
-                        <h6>3 - O QUE É O CONTROLADOR DE TEMPERATURA E PROCESSOS WEST 6100+ | P6100+?</h6>
+                        <h6>ONDE UTILIZAR O CONTROLADOR DE TEMPERATURA E PROCESSOS WEST 6100+ | P6100+?</h6>
                         <br>
-                        <p>O Controlador de Temperatura e Processos West 6100+ | P6100+ é um dispositivo eletrônico
-                            utilizado para monitorar e controlar a temperatura em uma variedade de aplicações
-                            industriais. Ele faz parte da linha de produtos da West Control Solutions, uma empresa
-                            especializada em soluções de controle de processos.</p>
-                        <p>O West 6100+ | P6100+ é projetado para oferecer controle preciso e confiável da temperatura
-                            em diferentes ambientes e processos industriais. Ele possui uma tela de exibição digital que
-                            permite a visualização fácil e clara das informações, como a temperatura atual, ajustes de
-                            controle e alarmes.</p>
-                        <p>Alguns recursos e funcionalidades típicas do Controlador de Temperatura e Processos West
-                            6100+ | P6100+ incluem:</p>
-                        <ol>
-                            <li>Controle PID: O controlador utiliza o algoritmo PID (Proporcional-Integral-Derivativo)
-                                para ajustar a saída de controle e manter a temperatura desejada com alta precisão.</li>
-                            <li>Programação e perfis de rampa: Ele permite a criação de perfis de rampa de temperatura,
-                                onde é possível programar diferentes etapas de controle ao longo do tempo. Isso é útil
-                                em processos que requerem mudanças graduais de temperatura.</li>
-                            <li>Alarmes e notificações: O controlador pode ser configurado para emitir alarmes audíveis
-                                ou visuais caso a temperatura ultrapasse os limites definidos ou ocorra algum problema
-                                no sistema.</li>
-                            <li>Comunicação e conectividade: Alguns modelos do West 6100+ | P6100+ possuem recursos de
-                                comunicação, como interfaces serial ou Ethernet, permitindo a integração com sistemas de
-                                supervisão e controle (SCADA) ou outras soluções de automação.</li>
-                            <li>Configuração flexível: O controlador oferece opções de configuração flexíveis, como
-                                seleção de unidades de temperatura, calibração de sensores, ajuste de parâmetros de
-                                controle e personalização das configurações de acordo com a aplicação específica.</li>
-                        </ol>
-                        <p>É importante ressaltar que o Controlador de Temperatura e Processos West 6100+ | P6100+ é
-                            apenas um exemplo de controlador disponível no mercado. Existem outras marcas e modelos com
-                            recursos semelhantes, e é essencial consultar as especificações técnicas e orientações do
-                            fabricante para determinar a adequação do produto para a sua aplicação específica.</p>
+                        <p>O Controlador de Temperatura e Processos West 6100+ | P6100+ é um
+                            dispositivo usado para monitorar e controlar a temperatura em diversas
+                            aplicações industriais. Ele pode ser utilizado em processos que exigem
+                            controle preciso de temperatura, como em fornos, estufas, câmaras
+                            climáticas, sistemas de aquecimento e resfriamento, entre outros.
+                            Algumas situações em que o Controlador de Temperatura e Processos West
+                            6100+ | P6100+ pode ser utilizado incluem:
+                            <ul>
+                                <li>Indústria alimentícia: Para controlar a temperatura em fornos de panificação,
+                                    estufas de fermentação, máquinas de embalagem de alimentos, entre outros processos
+                                    de produção de alimentos.</li>
+                                <li>Indústria química: Em reatores químicos, destilação, controle de temperatura em
+                                    tanques de armazenamento e processos de refino.</li>
+                                <li>Indústria farmacêutica: Para controlar a temperatura em estufas de secagem,
+                                    autoclaves, fermentadores, entre outros equipamentos utilizados na produção de
+                                    medicamentos.</li>
+                                <li>Indústria de plásticos: Em moldagem por injeção, extrusão, sopradoras, onde é
+                                    necessário manter a temperatura adequada para obter produtos de qualidade.</li>
+                                <li>Indústria de energia: Em caldeiras, turbinas, sistemas de resfriamento e aquecimento
+                                    em usinas elétricas.</li>
+                            </ul>
+                        </p>
                     </div>
 
-                    <div class="col-lg-12">
+                   <!--  <div class="col-lg-12">
                         <br>
                         <h6>4 - COMO ERA A VERSÃO ANTIGA DO CONTROLADOR DE TEMPERATURA E PROCESSOS WEST 6100+ | P6100+?
                         </h6>
@@ -245,13 +249,13 @@
                             fiação terminal da versão anterior. Em resumo, o controlador West 6100+ tem diversas
                             funcionalidades adicionais que o tornam mais versátil e fácil de usar em comparação com a
                             versão anterior, N6100.</p>
-                    </div>
+                    </div> -->
 
                     <div class="col-lg-12">
                         <br>
-                        <h6>5 - QUAIS AS VANTAGENS DO CONTROLADOR DE TEMPERATURA E PROCESSOS WEST 6100+ | P6100+?</h6>
+                        <h6>QUAIS AS VANTAGENS DO CONTROLADOR DE TEMPERATURA E PROCESSOS WEST 6100+ | P6100+?</h6>
                         <br>
-                        <ol>
+                        <ul>
                             <li>Precisão de controle: O West 6100+ | P6100+ utiliza o algoritmo PID
                                 (Proporcional-Integral-Derivativo) para ajustar a saída de controle de forma precisa e
                                 rápida. Isso permite que o controlador mantenha a temperatura desejada com alta
@@ -278,14 +282,14 @@
                                 oferecer desempenho consistente ao longo do tempo. Além disso, possuem uma construção
                                 robusta que os torna adequados para uma variedade de aplicações industriais exigentes.
                             </li>
-                        </ol>
-                        <p>Essas são apenas algumas das vantagens gerais associadas ao Controlador de Temperatura e
+                        </ul>
+                        <!-- <p>Essas são apenas algumas das vantagens gerais associadas ao Controlador de Temperatura e
                             Processos West 6100+ | P6100+. É importante consultar as especificações e recursos
                             específicos do modelo desejado, pois as vantagens podem variar dependendo das
-                            características específicas do controlador.</p>
+                            características específicas do controlador.</p> -->
                     </div>
 
-                    <div class="col-lg-12">
+                    <!-- <div class="col-lg-12">
                         <br>
                         <h6>6 - QUAL É A DOR QUE O CONTROLADOR DE TEMPERATURA E PROCESSOS WEST 6100+ | P6100+ RESOLVE?
                         </h6>
@@ -295,7 +299,7 @@
                             para controlar de forma precisa e confiável a temperatura em diversos processos, evitando
                             problemas relacionados a variações de temperatura indesejadas.</p>
                         <p>Alguns exemplos de dores que esse controlador pode resolver incluem:</p>
-                        <ol>
+                        <ul>
                             <li>Inconsistência de temperatura: Em muitos processos industriais, manter uma temperatura
                                 constante e precisa é crucial para obter produtos de alta qualidade. O West 6100+ |
                                 P6100+ garante um controle preciso da temperatura, reduzindo as flutuações e
@@ -334,7 +338,7 @@
                             Eles desejam uma solução que atenda às necessidades específicas da aplicação e que resolva
                             os desafios relacionados ao controle de temperatura.</p>
                         <p>Alguns dos principais pontos que o comprador busca ao adquirir o West 6100+ | P6100+ são:</p>
-                        <ol>
+                        <ul>
                             <li>Precisão: O comprador procura um controlador que ofereça controle preciso da
                                 temperatura, garantindo que ela seja mantida dentro de limites definidos com alta
                                 precisão. Isso é particularmente importante em processos onde a qualidade do produto
@@ -361,7 +365,7 @@
                         <li>Cada aplicação e setor industrial podem ter requisitos específicos adicionais, mas esses são
                             alguns dos principais aspectos que um comprador busca ao adquirir o Controlador de
                             Temperatura e Processos West 6100+ | P6100+.</li>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -772,9 +776,7 @@
                                     </li>
                                 </ul>
                                 <div class="btn-area mt-4 d-flex gap-4 align-items-center">
-                                    <a href="index.php#contato" class="cmn-btn"><i
-                                            class="icon-f-cart text-white"></i>&nbsp;Comprar</a>
-
+                                    <a href="#contato" class="cmn-btn"><i class="icon-f-cart text-white"></i>&nbsp;Faça uma cotação</a>
                                 </div>
                             </div>
                         </div>
@@ -894,13 +896,13 @@
                             <div class="main-content">
                                 <div class="top-area section-text">
                                     <h4>Contato</h4>
-                                    <p>Abaixo veja como realizar a codificação do seu controlador 6100+,
-                                        conforme a sua necessidade:</p>
+                                    <!-- <p>Abaixo veja como realizar a codificação do seu controlador 6100+,
+                                        conforme a sua necessidade:</p> -->
                                 </div>
                             </div>
                         </div>
                         <div class="col-xxl-12 col-xl-12 col-md-12 cus-index text-center">
-                            <img src="assets/images/image-20.png" alt="">
+                            <!-- <img src="assets/images/image-20.png" alt=""> -->
                             <!-- FORM -->
                             <div class="pipedriveWebForms mt-5"
                                 data-pd-webforms="https://webforms.pipedrive.com/f/ctqFxcVimT67owVzXZBht6ycUpKYhWdiJmyFreWIIMgieZTnigokkjhGFIAFBsPyWn">
@@ -947,6 +949,7 @@
                 <div class="modal-body">
                     <p>Olá! Que tal receber um orçamento sem custo? Por favor, informe seu nome, e-mail, telefone e o
                         tipo de cabo que está procurando. =)</p>
+                        <br>
                     <form class="form-cta-wpp" action="send.php">
                         <div class="mb-3">
                             <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Nome *"

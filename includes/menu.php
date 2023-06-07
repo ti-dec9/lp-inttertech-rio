@@ -13,20 +13,20 @@
                 <div class="collapse navbar-collapse justify-content-between" id="navbar-content">
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" href="index.php#home">Home</a>
+                            <a class="nav-link active" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php#about">Sobre o Produto</a>
+                            <a class="nav-link" href="#about">Sobre o Produto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php#quem-somos">Quem Somos</a>
+                            <a class="nav-link" href="#quem-somos">Quem Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php#features">Características</a>
+                            <a class="nav-link" href="#features">Características</a>
                         </li>
                     </ul>
                     <div class="right-area gap-4 header-action d-flex align-items-center max-un">
-                        <a href="index.php#contato" class="cmn-btn">Comprar</a>
+                        <a href="#contato" class="cmn-btn">Comprar</a>
                     </div>
                 </div>
             </nav>
