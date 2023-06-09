@@ -26,7 +26,7 @@
                         </li>
                     </ul>
                     <div class="right-area gap-4 header-action d-flex align-items-center max-un">
-                        <a href="#contato" class="cmn-btn">Comprar</a>
+                        <a href="#contato" class="cmn-btn">Compre Agora</a>
                     </div>
                 </div>
             </nav>
