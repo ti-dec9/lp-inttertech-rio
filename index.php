@@ -148,6 +148,68 @@
                                     parcelamento e garantia de fábrica.</strong></p>
                         </div>
                     </div>
+                    <div class="col-lg-12">
+                        <p><strong>Para especificar um controlador de temperatura West 6100+, são necessárias as seguintes informações:</strong></p>
+                        <p class="color-blue"><strong>Codificações</strong></p>
+                        <table class="table">
+                            <thead>
+                                <tr class="text-center">
+                                    <th scope="col" class="color-blue">Código 1 <br> Modelo</th>
+                                    <th scope="col" class="color-blue">Código 2 <br> Tipo de Entrada</th>
+                                    <th scope="col" class="color-blue">Código 3 <br> Saída 1</th>
+                                    <th scope="col" class="color-blue">Código 4 <br> Saída 2</th>
+                                    <th scope="col" class="color-blue">Código 5 <br> Saída 3</th>
+                                    <th scope="col" class="color-blue">Código 6 <br> Saída A</th>
+                                    <th scope="col" class="color-blue">Código 7 <br> Alimentação</th>
+                                    <th scope="col" class="color-blue">Código 8 <br> Cor do display</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td><span style="border: 1.5px solid #000;  padding: 10px;"></span></td>
+                                    <td><span style="border: 1.5px solid #000;  padding: 10px;"></span></td>
+                                    <td><span style="border: 1.5px solid #000;  padding: 10px;"></span></td>
+                                    <td><span style="border: 1.5px solid #000;  padding: 10px;"></span></td>
+                                    <td><span style="border: 1.5px solid #000;  padding: 10px;"></span></td>
+                                    <td><span style="border: 1.5px solid #000;  padding: 10px;"></span></td>
+                                    <td><span style="border: 1.5px solid #000;  padding: 10px;"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="color-blue">P6100+</th>
+                                    <td style="width: 200px;"><span class="color-blue">1</span> Entrada Universal (PT100, Termopar, Linear mA/VCC)</td>
+                                    <td style="width: 200px;">
+                                        <ul class="list-unstyled text-left">
+                                            <li><span class="color-blue">1</span> Relé</li>
+                                            <li><span class="color-blue">2</span> SSR Drive</li>
+                                            <li><span class="color-blue">3</span> Linear 0-10V</li>
+                                            <li><span class="color-blue">4</span> Linear 0-20 mA</li>
+                                            <li><span class="color-blue">5</span> Linear 0-5 V</li>
+                                            <li><span class="color-blue">6</span> Linear 2-10V</li>
+                                            <li><span class="color-blue">7</span> Linear 4-20 mA</li>
+                                            <li><span class="color-blue">8</span> Triac</li>
+                                        </ul>                                        
+                                    </td>
+                                    <td style="width: 200px;">
+                                        <ul class="list-unstyled text-left">
+                                            <li><span class="color-blue">1</span> Relé</li>
+                                            <li><span class="color-blue">2</span> SSR Drive</li>
+                                            <li><span class="color-blue">3</span> Linear 0-10V</li>
+                                            <li><span class="color-blue">4</span> Linear 0-20 mA</li>
+                                            <li><span class="color-blue">5</span> Linear 0-5 V</li>
+                                            <li><span class="color-blue">6</span> Linear 2-10V</li>
+                                            <li><span class="color-blue">7</span> Linear 4-20 mA</li>
+                                            <li><span class="color-blue">8</span> Triac</li>
+                                        </ul>                                        
+                                    </td>
+                                    <td>@mdo</td>
+                                    <td>@mdo</td>
+                                    <td>@mdo</td>
+                                    <td>@mdo</td>
+                                </tr>                               
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
@@ -199,14 +261,70 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <img src="assets/images/foto-quem-somos.jpg" alt="">
+                        <img src="assets/images/about.png" alt="">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="owl-carousel owl-theme mt-5">
+                                    <div class="item">
+                                        <img src="assets/images/logos/1.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/images/logos/2.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/images/logos/3.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/images/logos/4.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/images/logos/5.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/images/logos/6.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/images/logos/7.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/images/logos/8.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/images/logos/9.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/images/logos/10.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/images/logos/11.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/images/logos/12.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/images/logos/13.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/images/logos/14.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/images/logos/15.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/images/logos/16.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/images/logos/17.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Terms Conditions In end -->
-
 
     <section class="features-section" id="features">
         <div class="overlay pt-120 pb-120">
@@ -839,7 +957,9 @@
     <script src="assets/js/plugin/wow.min.js"></script>
     <script src="assets/js/plugin/jquery.inputmask.min.js"></script>
     <script src="assets/js/plugin/plugin.js"></script>
+    <script src="assets/js/plugin/owl/owl.carousel.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/custom.js"></script>
     <script src="https://kit.fontawesome.com/78bb8de998.js" crossorigin="anonymous"></script>
 
     <script>

@@ -7,6 +7,8 @@
 <link rel="stylesheet" href="assets/css/plugin/nice-select.css">
 <link rel="stylesheet" href="assets/css/arafat-font.css">
 <link rel="stylesheet" href="assets/css/plugin/animate.css">
+<link rel="stylesheet" href="assets/js/plugin/owl/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/js/plugin/owl/assets/owl.theme.default.min.css">
 <link rel="stylesheet" href="assets/css/style.css?v=258526">
 <link rel="stylesheet" href="assets/css/custom.css?v=258526">
 
