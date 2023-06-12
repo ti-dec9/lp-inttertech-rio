@@ -875,19 +875,19 @@
                     <br>
                     <form class="form-cta-wpp" action="send.php">
                         <div class="mb-3">
-                            <input type="text" class="form-control" id="exampleInputEmail1"
+                            <input type="text" class="form-control" id="name-form-cta-wpp"
                                 placeholder="Nome Completo *" aria-describedby="emailHelp" required>
                         </div>
                         <div class="mb-3">
-                            <input type="email" class="form-control" placeholder="E-mail corporativo *" required>
+                            <input type="email" class="form-control" id="email-form-cta-wpp" placeholder="E-mail corporativo *" required>
                         </div>
                         <div class="mb-3">
-                            <input type="text" class="form-control" placeholder="CNPJ" required>
+                            <input type="text" class="form-control" id="cnpj-form-cta-wpp" placeholder="CNPJ" required>
                         </div>
                         <div class="mb-3">
-                            <input type="text" class="form-control" placeholder="Telefone *" id="phone" required>
+                            <input type="text" class="form-control" id="telefone-form-cta-wpp" placeholder="Telefone *" id="phone" required>
                         </div>
-                        <button type="submit" class="btn btn-primary d-flex justify-content-end">Iniciar
+                        <button type="submit" class="btn btn-primary d-flex justify-content-end" id="btn-form-cta-wpp">Iniciar
                             conversa</button>
                     </form>
                 </div>
