@@ -208,6 +208,11 @@ span {
   font-size: 0.9rem;
 }
 
+.table > tbody > tr > th.align-center,
+.table > tbody > tr > td.align-center {
+  vertical-align: middle;
+}
+
 .b-none {
   border: none !important;
 }
