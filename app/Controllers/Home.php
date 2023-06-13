@@ -11,15 +11,15 @@ class Home extends BaseController
 
     public function sendMail()
     {
-        $name = $this->request->getPost('name');
-        $email = $this->request->getPost('email');
-        $phone = $this->request->getPost('phone');
-        $cnpj = $this->request->getPost('cnpj');
-        $message = $this->request->getPost('message');
+        $name = $this->request->getGet('name');
+        $email = $this->request->getGet('email');
+        $phone = $this->request->getGet('phone');
+        $cnpj = $this->request->getGet('cnpj');
+        $message = $this->request->getGet('message');
 
         $data = array(
             'name' => $name,
-            'emailUser' => $email,
+            'email' => $email,
             'phone' => $phone,
             'cnpj' => $cnpj,
             'message' => $message
@@ -27,21 +27,24 @@ class Home extends BaseController
 
         $body = view('mail/template', $data);
         
-        $mailTo = 'xploter13@gmail.com';
+        //Recipient
+        $mailTo = 'contato@intertechrio.com.br';
 
         //Load librarie and config
         $sendmail = \Config\Services::email();
         $sendmail->setTo($mailTo);
         $sendmail->setFrom('mailto@intertechrio.com.br', 'Intertech Rio');
-        $sendmail->setSubject("Ativação de conta");
+        $sendmail->setSubject("Contato - LP Controlador de temperatura west 6100");
         $sendmail->setMessage($body);
-        $sendmail->send();
-
-        /*
-         * DEBUG MAIL */
-        $data = $sendmail->printDebugger(['headers']);
-        print_r($data);
-        exit();
+        $return = $sendmail->send();
+        if ($return) {
+            echo "TRUE";
+        } else {
+            echo "FALSE";
+            //DEBUG MAIL 
+           /* $data = $sendmail->printDebugger(['headers']);
+            print_r($data); */
+        }
 
         //Optional
         //$email->setCC('another@emailHere');//CC
@@ -49,12 +52,6 @@ class Home extends BaseController
         //Attachment
         //$filename = '/img/yourPhoto.jpg'; //you can use the App patch
         //$email->attach($filename);
-
-        /* if ($email->send()) {
-            echo "TRUE";
-        } else {
-            echo "FALSE";
-        } */
         
     }
 }

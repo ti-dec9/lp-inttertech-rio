@@ -849,30 +849,30 @@
                                     <div class="row">
                                         <div class="col-12 mb-3">
                                             <label for="name-contact">Qual o seu nome completo?</label>
-                                            <input type="text" id="name-contact" class="form-control" placeholder="Digite aqui o seu nome completo" required>
+                                            <input type="text" name="name" id="name-contact" class="form-control" placeholder="Digite aqui o seu nome completo" required>
                                             <!-- <div class="valid-feedback">Username field is valid!</div> -->
                                             <div class="invalid-feedback">Este campo é obrigatório</div>
                                         </div>
                                         <div class="col-12 mb-3">
                                             <label for="email-contact">Qual o seu e-mail corporativo?</label>
-                                            <input type="email" id="email-contact" class="form-control" placeholder="Digite aqui o seu email" required>
+                                            <input type="email" name="email" id="email-contact" class="form-control" placeholder="Digite aqui o seu email" required>
                                             <div class="invalid-feedback">Este campo é obrigatório</div>
                                         </div>
                                         <div class="col-12 mb-3">
                                             <div class="form-group">
                                                 <label for="phone-contact">Qual o seu telefone (se tiver Whatsapp, melhor)?</label>
-                                                <input type="text" class="telefone-form-cta-wpp form-control" id="phone-contact" placeholder="" required>
+                                                <input type="text" name="phone" class="telefone-form-cta-wpp form-control" id="phone-contact" placeholder="" required>
                                                 <div class="invalid-feedback">Este campo é obrigatório</div>
                                             </div>
                                         </div>
                                         <div class="col-12 mb-3">
                                             <label for="cnpj-contact">Qual o CNPJ da sua empresa?</label>
-                                            <input type="text" class="cnpj-form-cta-wpp form-control" id="cnpj-contact" placeholder="" required>
+                                            <input type="text" name="cnpj" class="cnpj-form-cta-wpp form-control" id="cnpj-contact" placeholder="" required>
                                             <div class="invalid-feedback">Este campo é obrigatório</div>
                                         </div>
                                         <div class="col-12 mb-3">
                                             <label for="form-message">Mensagem</label>
-                                            <textarea id="form-message" cols="30" rows="5" class="form-control" required></textarea>
+                                            <textarea id="form-message" name="message" cols="30" rows="5" class="form-control" required></textarea>
                                             <div class="invalid-feedback">Este campo é obrigatório</div>
                                         </div>
                                     </div>
@@ -880,7 +880,7 @@
                                     <br>
                                     <p class="text-center"><button type="submit" class="cmn-btn">Enviar</button></p>
                                 </form>
-                                <div class="msg"></div>
+                                <div class="msg mt-5"></div>
                             </div>
 
                         </div>
@@ -985,7 +985,7 @@
     <script src="assets/js/plugin/plugin.js"></script>
     <script src="assets/js/plugin/owl/owl.carousel.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/custom.js?v=<?php echo md5(time()); ?>"></script>
     <script src="https://kit.fontawesome.com/78bb8de998.js" crossorigin="anonymous"></script>
 
     <script>

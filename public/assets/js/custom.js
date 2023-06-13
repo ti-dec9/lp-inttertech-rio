@@ -1,7 +1,7 @@
 $(document).ready(function () {
-    //BASE_URL = window.location.origin + '/';
+    BASE_URL = window.location.origin + '/lp/controlador-de-temperatura-west-6100/';
     //HOMOLOG
-    BASE_URL = window.location.origin + '/lp-inttertech-rio/';
+    //BASE_URL = window.location.origin + '/lp-inttertech-rio/';
 
     $('.owl-carousel').owlCarousel({
         loop: true,
@@ -41,6 +41,7 @@ $(document).ready(function () {
             } else {
                 event.preventDefault()
                 event.stopPropagation()
+                //console.log($('#frm-contact').serialize());
                 // Send
                 $.ajax({
                     url: BASE_URL + 'sendmail/contato',
@@ -54,14 +55,14 @@ $(document).ready(function () {
                         msg("<b>Processando... Por favor, aguarde!<b>", 'alert');
                     },
                     success: function (data) {
-                        //console.log(data);
+                        console.log(data);
                         if (data === 'TRUE') {
-                            msg("Recebemos o seu pedido! <br><br> Entraremos em contato nas prÃ³ximas 24h via telefone para gerarmos o seu orÃ§amento.", "success");
+                            msg("Recebemos a sua solicitação! <br> Em breve, entraremos em contato.", "success");
                             setTimeout(() => {
                                 $(location).attr('href', '');
                             }, 10000);
                         } else if (data === 'FALSE') {
-                            msg("Dados nÃo enviados!", "error");
+                            msg("Dados não enviados!", "error");
                         }
                     },
                     error: function (data) {
