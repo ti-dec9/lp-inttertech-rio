@@ -819,21 +819,54 @@
                             <div class="main-content">
                                 <div class="top-area section-text text-center">
                                     <h4>Contato</h4>
-                                    <!-- <p>Abaixo veja como realizar a codificação do seu controlador 6100+,
-                                        conforme a sua necessidade:</p> -->
+                                    <p>Por favor, informe seus dados para fazermos uma cotação:</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xxl-12 col-xl-12 col-md-12 cus-index text-center">
-                            <!-- <img src="assets/images/image-20.png" alt=""> -->
+                        <!-- <div class="col-xxl-12 col-xl-12 col-md-12 cus-index text-center">
+                             <img src="assets/images/image-20.png" alt=""> -->
                             <!-- FORM -->
-                            <div class="pipedriveWebForms mt-5"
+                            <!-- <div class="pipedriveWebForms mt-5"
                                 data-pd-webforms="https://webforms.pipedrive.com/f/ctqFxcVimT67owVzXZBht6ycUpKYhWdiJmyFreWIIMgieZTnigokkjhGFIAFBsPyWn">
                                 <script src="https://webforms.pipedrive.com/f/loader"></script>
+                            </div> 
+                        </div>-->
+
+                        <!-- <div class="pipedriveWebForms mt-5" data-pd-webforms="https://webforms.pipedrive.com/f/ctqFxcVimT67owVzXZBht6ycUpKYhWdiJmyFreWIIMgieZTnigokkjhGFIAFBsPyWn">
+                            <script src="https://webforms.pipedrive.com/f/loader"></script> -->
+
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <form action="#" id="form-contact">
+                                    <div class="single-input">
+                                        <label for="name">Qual o seu nome completo?</label>
+                                        <input type="text" id="name" placeholder="Digite aqui o seu nome completo" required>
+                                    </div>
+                                    <div class="single-input">
+                                        <label for="email">Qual o seu e-mail corporativo?</label>
+                                        <input type="text" id="email" placeholder="Digite aqui o seu email" required>
+                                    </div>
+                                    <div class="single-input">
+                                        <label for="phone">Qual o seu telefone (se tiver Whatsapp, melhor)?</label>
+                                        <input type="text" class="telefone-form-cta-wpp" id="phone" placeholder="" required>
+                                    </div>
+                                    <div class="single-input">
+                                        <label for="phone">Qual o CNPJ da sua empresa?</label>
+                                        <input type="text" class="cnpj-form-cta-wpp" id="cnpj" placeholder="" required>
+                                    </div>
+                                    <!-- <div class="single-input">
+                                        <label for="file">Caso queira enviar algum dado específico, você pode anexar aqui (uma folha de dados por exemplo). (opcional)</label>
+                                        <input type="file" id="file" placeholder="">
+                                    </div>  -->                                   
+                                    <div class="single-input">
+                                        <label for="Message">Mensagem</label>
+                                        <textarea id="Message" cols="30" rows="5" required></textarea>
+                                    </div>
+                                    <p>Clicando abaixo, o nosso time comercial vai emitir a <strong>proposta e enviar para o seu e-mail nos próximos minutos.</strong></p>
+                                    <br>
+                                    <p class="text-center"><button type="submit" class="cmn-btn">Enviar</button></p>
+                                </form>
                             </div>
-                            <!-- <div class="sec-img position-relative">
-                                <!-- <img src="assets/images/Controladores-de-Temperatura-e-Processos-P6100-West.png" class="max-un" alt="image"> --
-                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -873,19 +906,19 @@
                     <p>Olá! Que tal receber um orçamento sem compromisso? Por favor,
                         informe seu nome, e-mail corporativo, CNPJ e telefone.</p>
                     <br>
-                    <form class="form-cta-wpp" action="send.php">
+                    <form class="form-cta-wpp" id="form-cta-wpp" action="send.php">
                         <div class="mb-3">
-                            <input type="text" class="form-control" id="name-form-cta-wpp"
+                            <input type="text" name="name" class="form-control" id="name-form-cta-wpp"
                                 placeholder="Nome Completo *" aria-describedby="emailHelp" required>
                         </div>
                         <div class="mb-3">
-                            <input type="email" class="form-control" id="email-form-cta-wpp" placeholder="E-mail corporativo *" required>
+                            <input type="email" name="email" class="form-control" id="email-form-cta-wpp" placeholder="E-mail corporativo *" required>
                         </div>
                         <div class="mb-3">
-                            <input type="text" class="form-control" id="cnpj-form-cta-wpp" placeholder="CNPJ" required>
+                            <input type="text" name="cnpj" class="form-control cnpj-form-cta-wpp" id="cnpj-form-cta-wpp" placeholder="CNPJ" required>
                         </div>
                         <div class="mb-3">
-                            <input type="text" class="form-control" id="telefone-form-cta-wpp" placeholder="Telefone *" id="phone" required>
+                            <input type="text" name="phone" class="form-control telefone-form-cta-wpp" id="telefone-form-cta-wpp" placeholder="Telefone *" id="phone" required>
                         </div>
                         <button type="submit" class="btn btn-primary d-flex justify-content-end" id="btn-form-cta-wpp">Iniciar
                             conversa</button>
@@ -921,10 +954,11 @@
             console.log('cta-wpp clicked');
         });
 
-        $('#phone').inputmask({
+        $('.telefone-form-cta-wpp').inputmask({
             "mask": ["(99) 9999-9999", "(99) 99999-9999"],
             keepStatic: true
         });
+        $('.cnpj-form-cta-wpp').inputmask('99.999.999/9999-99');
     </script>
 </body>
 
