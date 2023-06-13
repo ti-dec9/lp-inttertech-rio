@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^/lp/controlador-de-temperatura-west-6100/public/
+RewriteRule ^(.*)$ /lp/controlador-de-temperatura-west-6100/public/$1 [L]
+
+
+## Troque o nome "seu-dominio.com" pelo nome do seu domínio ##
+## Troque o nome "pasta" pelo nome da pasta que vai ser a raiz do seu site ##

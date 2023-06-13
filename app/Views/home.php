@@ -18,8 +18,10 @@
     <link rel="stylesheet" href="assets/css/plugin/animate.css">
     <link rel="stylesheet" href="assets/js/plugin/owl/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/js/plugin/owl/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo md5(time()); ?>">
-    <link rel="stylesheet" href="assets/css/custom.css?v=<?php echo md5(time()); ?>">
+    <link rel="stylesheet"
+        href="assets/css/style.css?v=<?php echo md5(time()); ?>">
+    <link rel="stylesheet"
+        href="assets/css/custom.css?v=<?php echo md5(time()); ?>">
 
     <!-- Google Tag Manager -->
     <script>
@@ -172,8 +174,8 @@
                 <div class="row align-items-center justify-content-end">
                     <div class="col-xxl-6 col-lg-6 order-lg-0 order-1">
                         <div class="sec-img">
-                            <img src="assets/images/Controladores-de-Temperatura-e-Processos-P6100-West.avif" loading="lazy"
-                                alt="image">
+                            <img src="assets/images/Controladores-de-Temperatura-e-Processos-P6100-West.avif"
+                                loading="lazy" alt="image">
                         </div>
                         <p class="text-center">
                             <a href="#contato" class="cmn-btn d-sm-none" style="padding: 15px 30px;">Fale com um
@@ -244,7 +246,8 @@
                                     </tr>
                                     <tr>
                                         <th scope="row" class="color-blue" style="width: 150px;">P6100+</th>
-                                        <td style="width: 150px;"><span class="color-blue fw-bold">1</span> Entrada Universal
+                                        <td style="width: 150px;"><span class="color-blue fw-bold">1</span> Entrada
+                                            Universal
                                             (PT100, Termopar, Linear mA/VCC)</td>
                                         <td style="width: 150px;">
                                             <ul class="list-unstyled text-left ms-lg-2">
@@ -327,7 +330,8 @@
                     </div>
                     <div class="col-lg-6 pt-5">
                         <div class="top-wrapper">
-                            <p>Fundada em 2006, a <strong>Inttertech Rio</strong> é referência de liderança no mercado brasileiro,
+                            <p>Fundada em 2006, a <strong>Inttertech Rio</strong> é referência de liderança no mercado
+                                brasileiro,
                                 fornecendo com excelência há mais de 17 anos soluções
                                 completas em análise de gases, sistemas de condicionamento de amostras, calorímetros
                                 para medição de índice de Wobbe, poder calorífico,
@@ -350,7 +354,8 @@
                                     Hengstler,
                                     West, Kistler Morse, Dynapar,</strong> incluindo atendimento personalizado com foco
                                 no cliente.</p>
-                            <p>A <strong>Inttertech Rio</strong> atende com dinamismo as indústrias de óleo & gás, química, petroquímica,
+                            <p>A <strong>Inttertech Rio</strong> atende com dinamismo as indústrias de óleo & gás,
+                                química, petroquímica,
                                 naval, energia, biogás, gases especiais,
                                 farmacêutica, mineração, siderurgia, automotiva, alimentação & bebidas, papel &
                                 celulose, saneamento, além de laboratórios de metrologia,
@@ -365,31 +370,31 @@
                             <div class="col-lg-12">
                                 <div class="owl-carousel owl-theme mt-5">
                                     <div class="item">
-                                        <img src="assets/images/logos/1.jpg"  loading="lazy"alt="icon">
+                                        <img src="assets/images/logos/1.jpg" loading="lazy" alt="icon">
                                     </div>
                                     <div class="item">
-                                        <img src="assets/images/logos/2.jpg"  loading="lazy"alt="icon">
+                                        <img src="assets/images/logos/2.jpg" loading="lazy" alt="icon">
                                     </div>
                                     <div class="item">
-                                        <img src="assets/images/logos/3.jpg"  loading="lazy"alt="icon">
+                                        <img src="assets/images/logos/3.jpg" loading="lazy" alt="icon">
                                     </div>
                                     <div class="item">
-                                        <img src="assets/images/logos/4.jpg"  loading="lazy"alt="icon">
+                                        <img src="assets/images/logos/4.jpg" loading="lazy" alt="icon">
                                     </div>
                                     <div class="item">
-                                        <img src="assets/images/logos/5.jpg"  loading="lazy"alt="icon">
+                                        <img src="assets/images/logos/5.jpg" loading="lazy" alt="icon">
                                     </div>
                                     <div class="item">
-                                        <img src="assets/images/logos/6.jpg"  loading="lazy"alt="icon">
+                                        <img src="assets/images/logos/6.jpg" loading="lazy" alt="icon">
                                     </div>
                                     <div class="item">
-                                        <img src="assets/images/logos/7.jpg"  loading="lazy"alt="icon">
+                                        <img src="assets/images/logos/7.jpg" loading="lazy" alt="icon">
                                     </div>
                                     <div class="item">
-                                        <img src="assets/images/logos/8.jpg"  loading="lazy"alt="icon">
+                                        <img src="assets/images/logos/8.jpg" loading="lazy" alt="icon">
                                     </div>
                                     <div class="item">
-                                        <img src="assets/images/logos/9.jpg"  loading="lazy"alt="icon">
+                                        <img src="assets/images/logos/9.jpg" loading="lazy" alt="icon">
                                     </div>
                                     <div class="item">
                                         <img src="assets/images/logos/10.jpg" loading="lazy" alt="icon">
@@ -595,7 +600,8 @@
                                 </tr>
                                 <tr>
                                     <th scope="row" colspan="1" class="align-center" style="width: 150px;">
-                                        <strong>Aplicações em laboratórios</strong></th>
+                                        <strong>Aplicações em laboratórios</strong>
+                                    </th>
                                     <td style="width: 150px;">Controlar a temperatura em estufas, incubadoras, banhos
                                         termostáticos e outras aplicações que requerem precisão no controle térmico.
                                     </td>
@@ -651,7 +657,8 @@
                                 </tr>
                                 <tr>
                                     <th scope="row" colspan="1" class="align-center" style="width: 150px;">
-                                        <strong>Indústria química</strong></th>
+                                        <strong>Indústria química</strong>
+                                    </th>
                                     <td style="width: 150px;">Em reatores químicos, destilação, controle de temperatura
                                         em tanques de armazenamento e processos de refino.</td>
                                 </tr>
@@ -712,7 +719,8 @@
                                 </tr>
                                 <tr>
                                     <th scope="row" colspan="1" class="align-center" style="width: 150px;">
-                                        <strong>Desperdício de energia</strong></th>
+                                        <strong>Desperdício de energia</strong>
+                                    </th>
                                     <td style="width: 150px;">Quando o controle de temperatura não é adequado, os
                                         sistemas podem operar desnecessariamente em altas temperaturas ou consumir
                                         energia em excesso. O controlador West 6100+ | P6100+ ajuda a otimizar o consumo
@@ -825,8 +833,8 @@
                         </div>
                         <!-- <div class="col-xxl-12 col-xl-12 col-md-12 cus-index text-center">
                              <img src="assets/images/image-20.png" alt=""> -->
-                            <!-- FORM -->
-                            <!-- <div class="pipedriveWebForms mt-5"
+                        <!-- FORM -->
+                        <!-- <div class="pipedriveWebForms mt-5"
                                 data-pd-webforms="https://webforms.pipedrive.com/f/ctqFxcVimT67owVzXZBht6ycUpKYhWdiJmyFreWIIMgieZTnigokkjhGFIAFBsPyWn">
                                 <script src="https://webforms.pipedrive.com/f/loader"></script>
                             </div> 
@@ -837,36 +845,44 @@
 
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <form action="#" id="form-contact">
-                                    <div class="single-input">
-                                        <label for="name">Qual o seu nome completo?</label>
-                                        <input type="text" id="name" placeholder="Digite aqui o seu nome completo" required>
-                                    </div>
-                                    <div class="single-input">
-                                        <label for="email">Qual o seu e-mail corporativo?</label>
-                                        <input type="text" id="email" placeholder="Digite aqui o seu email" required>
-                                    </div>
-                                    <div class="single-input">
-                                        <label for="phone">Qual o seu telefone (se tiver Whatsapp, melhor)?</label>
-                                        <input type="text" class="telefone-form-cta-wpp" id="phone" placeholder="" required>
-                                    </div>
-                                    <div class="single-input">
-                                        <label for="phone">Qual o CNPJ da sua empresa?</label>
-                                        <input type="text" class="cnpj-form-cta-wpp" id="cnpj" placeholder="" required>
-                                    </div>
-                                    <!-- <div class="single-input">
-                                        <label for="file">Caso queira enviar algum dado específico, você pode anexar aqui (uma folha de dados por exemplo). (opcional)</label>
-                                        <input type="file" id="file" placeholder="">
-                                    </div>  -->                                   
-                                    <div class="single-input">
-                                        <label for="Message">Mensagem</label>
-                                        <textarea id="Message" cols="30" rows="5" required></textarea>
+                                <form class="needs-validation" id="frm-contact" novalidate>
+                                    <div class="row">
+                                        <div class="col-12 mb-3">
+                                            <label for="name-contact">Qual o seu nome completo?</label>
+                                            <input type="text" id="name-contact" class="form-control" placeholder="Digite aqui o seu nome completo" required>
+                                            <!-- <div class="valid-feedback">Username field is valid!</div> -->
+                                            <div class="invalid-feedback">Este campo é obrigatório</div>
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <label for="email-contact">Qual o seu e-mail corporativo?</label>
+                                            <input type="email" id="email-contact" class="form-control" placeholder="Digite aqui o seu email" required>
+                                            <div class="invalid-feedback">Este campo é obrigatório</div>
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <div class="form-group">
+                                                <label for="phone-contact">Qual o seu telefone (se tiver Whatsapp, melhor)?</label>
+                                                <input type="text" class="telefone-form-cta-wpp form-control" id="phone-contact" placeholder="" required>
+                                                <div class="invalid-feedback">Este campo é obrigatório</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <label for="cnpj-contact">Qual o CNPJ da sua empresa?</label>
+                                            <input type="text" class="cnpj-form-cta-wpp form-control" id="cnpj-contact" placeholder="" required>
+                                            <div class="invalid-feedback">Este campo é obrigatório</div>
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <label for="form-message">Mensagem</label>
+                                            <textarea id="form-message" cols="30" rows="5" class="form-control" required></textarea>
+                                            <div class="invalid-feedback">Este campo é obrigatório</div>
+                                        </div>
                                     </div>
                                     <p>Clicando abaixo, o nosso time comercial vai emitir a <strong>proposta e enviar para o seu e-mail nos próximos minutos.</strong></p>
                                     <br>
                                     <p class="text-center"><button type="submit" class="cmn-btn">Enviar</button></p>
                                 </form>
+                                <div class="msg"></div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -882,7 +898,7 @@
     <!-- CTA WPP - Button trigger modal -->
     <a href="#" class="cta-wpp" data-bs-toggle="modal" data-bs-target="#cta-modal">
         <i class="fa fa-whatsapp"></i>
-                                </a>
+    </a>
 
 
     <!-- Modal -->
@@ -912,15 +928,19 @@
                                 placeholder="Nome Completo *" aria-describedby="emailHelp" required>
                         </div>
                         <div class="mb-3">
-                            <input type="email" name="email" class="form-control" id="email-form-cta-wpp" placeholder="E-mail corporativo *" required>
+                            <input type="email" name="email" class="form-control" id="email-form-cta-wpp"
+                                placeholder="E-mail corporativo *" required>
                         </div>
                         <div class="mb-3">
-                            <input type="text" name="cnpj" class="form-control cnpj-form-cta-wpp" id="cnpj-form-cta-wpp" placeholder="CNPJ" required>
+                            <input type="text" name="cnpj" class="form-control cnpj-form-cta-wpp" id="cnpj-form-cta-wpp"
+                                placeholder="CNPJ" required>
                         </div>
                         <div class="mb-3">
-                            <input type="text" name="phone" class="form-control telefone-form-cta-wpp" id="telefone-form-cta-wpp" placeholder="Telefone *" id="phone" required>
+                            <input type="text" name="phone" class="form-control telefone-form-cta-wpp"
+                                id="telefone-form-cta-wpp" placeholder="Telefone *" id="phone" required>
                         </div>
-                        <button type="submit" class="btn btn-primary d-flex justify-content-end" id="btn-form-cta-wpp">Iniciar
+                        <button type="submit" class="btn btn-primary d-flex justify-content-end"
+                            id="btn-form-cta-wpp">Iniciar
                             conversa</button>
                     </form>
                 </div>
@@ -929,7 +949,26 @@
     </div>
 
     <!-- Footer Area Start -->
-    <?php include('includes/footer.php'); ?>
+    <footer class="footer-section">
+        <div class="footer-area dark-sec pt-120">
+            <div class="container">
+                <div class="footer-bottom">
+                    <div class="row gap-3 gap-md-0 justify-content-between align-items-center">
+                        <div class="col-md-12 d-flex justify-content-center">
+                            <a href="index.php"><img src="assets/images/white_Inttertech-Rio_HORIZ-1024x205.png"
+                                    class="logo" style="width: 200px; height: auto; margin-bottom: 30px;"
+                                    alt="logo"></a>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="copyright text-center mt-4 mb-4">
+                                <p>© 2023 <a href="#">Inttertech Rio</a>. Todos os direitos reservados.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- Footer Area End -->
 
     <!--==================================================================-->
