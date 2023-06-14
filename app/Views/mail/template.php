@@ -24,10 +24,12 @@
         <p style="Margin-top: 0;color: #565656;font-family: Arial,serif;font-size: 14px;line-height: 5px;margin-bottom: 5px">
             <b>CNPJ: </b> <?php echo $cnpj;?>
         </p> <br>
+        <?php if (!empty($message)) : ?>
         <p style="Margin-top: 0;color: #565656;font-family: Arial,serif;font-size: 14px;line-height: 5px;margin-bottom: 5px">
             <b>Mensagem</b> <br> 
             <?php echo $message;?>
         </p>
+        <?php endif; ?>
 </body>
 
 </html>

@@ -29,6 +29,7 @@ $(document).ready(function () {
     // Example starter JavaScript for disabling form submissions if there are invalid fields
     'use strict'
 
+    /* FORM CONTACT */
     // Fetch all the forms we want to apply custom Bootstrap validation styles to
     const forms = document.querySelectorAll('.needs-validation');
 
@@ -38,46 +39,13 @@ $(document).ready(function () {
             if (!form.checkValidity()) {
                 event.preventDefault()
                 event.stopPropagation()
-            } else {
-                event.preventDefault()
-                event.stopPropagation()
-                //console.log($('#frm-contact').serialize());
-                // Send
-                $.ajax({
-                    url: BASE_URL + 'sendmail/contato',
-                    type: 'GET',
-                    data: $('#frm-contact').serialize(),
-                    contentType: false,
-                    processData: false,
-                    //async: false, //blocks window close
-                    beforeSend: function (data) {
-                        //console.log(data);
-                        msg("<b>Processando... Por favor, aguarde!<b>", 'alert');
-                    },
-                    success: function (data) {
-                        console.log(data);
-                        if (data === 'TRUE') {
-                            msg("Recebemos a sua solicitação! <br> Em breve, entraremos em contato.", "success");
-                            setTimeout(() => {
-                                $(location).attr('href', '');
-                            }, 10000);
-                        } else if (data === 'FALSE') {
-                            msg("Dados não enviados!", "error");
-                        }
-                    },
-                    error: function (data) {
-                        //console.log(data);
-                        msg("Erro crí­tico! Por favor, consulte o administrador do sistema!", "error");
-                        setTimeout(() => {
-                            $('.msg').fadeOut('slow');
-                        }, 2000);
-                    }
-                });
             }
             form.classList.add('was-validated')
         }, false)
     });
 
+
+    /* FORM CTA WPP */
     // Fetch all the forms we want to apply custom Bootstrap validation styles to
     const formsCta = document.querySelectorAll('#form-cta-wpp');
 
@@ -87,40 +55,7 @@ $(document).ready(function () {
             if (!form.checkValidity()) {
                 event.preventDefault()
                 event.stopPropagation()
-            } else {
-                event.preventDefault()
-                event.stopPropagation()
-                //console.log($('#form-cta-wpp').serialize());
-                // Send
-                $.ajax({
-                    url: BASE_URL + 'sendmail/cta',
-                    type: 'GET',
-                    data: $('#form-cta-wpp').serialize(),
-                    contentType: false,
-                    processData: false,
-                    //async: false, //blocks window close
-                    beforeSend: function (data) {
-                        //console.log(data);
-                        msg("<b>Processando... Por favor, aguarde!<b>", 'alert');
-                    },
-                    success: function (data) {
-                        //console.log(data);
-                        if (data === 'TRUE') {
-                            //msg("Recebemos a sua solicitação! <br> Em breve, entraremos em contato.", "success");
-                            $(location).attr('href', 'https://wa.me/5521996072513?text=Gostaria%20de%20informações%20sobre%20o%20produto%20CONTROLADOR%20DE%20TEMPERATURA%20E%20PROCESSOS%20WEST%206100+%20|%20P6100+');
-                        } else if (data === 'FALSE') {
-                            msg("Dados não enviados!", "error");
-                        }
-                    },
-                    error: function (data) {
-                        //console.log(data);
-                        msg("Erro crí­tico! Por favor, consulte o administrador do sistema!", "error");
-                        setTimeout(() => {
-                            $('.msg').fadeOut('slow');
-                        }, 2000);
-                    }
-                });
-            }
+            } 
             form.classList.add('was-validated')
         }, false)
     });

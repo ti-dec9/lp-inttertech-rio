@@ -9,13 +9,13 @@ class Home extends BaseController
         return view('home');
     }
 
-    public function sendMail()
+    public function contato()
     {
-        $name = $this->request->getGet('name');
-        $email = $this->request->getGet('email');
-        $phone = $this->request->getGet('phone');
-        $cnpj = $this->request->getGet('cnpj');
-        $message = $this->request->getGet('message');
+        $name = $this->request->getPost('name');
+        $email = $this->request->getPost('email');
+        $phone = $this->request->getPost('phone');
+        $cnpj = $this->request->getPost('cnpj');
+        $message = $this->request->getPost('message');
 
         $data = array(
             'name' => $name,
@@ -29,18 +29,25 @@ class Home extends BaseController
         
         //Recipient
         $mailTo = 'contato@intertechrio.com.br';
+        //$mailTo = 'fernando@dec9.com.br';
 
         //Load librarie and config
         $sendmail = \Config\Services::email();
         $sendmail->setTo($mailTo);
-        $sendmail->setFrom('mailto@intertechrio.com.br', 'Intertech Rio');
-        $sendmail->setSubject("Contato - LP Controlador de temperatura west 6100");
+        $sendmail->setFrom("$email", 'Intertech Rio');
+        $sendmail->setSubject("Contato - LP Controlador de temperatura west 6100 - Lead Form Contato");
         $sendmail->setMessage($body);
         $return = $sendmail->send();
         if ($return) {
-            echo "TRUE";
+            $data = array(
+                'message' => "Seus dados foram enviados com sucesso! <br> Em breve retornaremos o contato.",
+            );
+            echo view('send/return', $data);
         } else {
-            echo "FALSE";
+            $data = array(
+                'message' => "Algo deu errado, dados não enviados!",
+            );
+            echo view('send/return', $data);
             //DEBUG MAIL 
            /* $data = $sendmail->printDebugger(['headers']);
             print_r($data); */
@@ -55,12 +62,12 @@ class Home extends BaseController
         
     }
 
-    public function sendMailCta()
+    public function contatoCta()
     {
-        $name = $this->request->getGet('name');
-        $email = $this->request->getGet('email');
-        $phone = $this->request->getGet('phone');
-        $cnpj = $this->request->getGet('cnpj');
+        $name = $this->request->getPost('name');
+        $email = $this->request->getPost('email');
+        $phone = $this->request->getPost('phone');
+        $cnpj = $this->request->getPost('cnpj');
 
         $data = array(
             'name' => $name,
@@ -73,18 +80,22 @@ class Home extends BaseController
         
         //Recipient
         $mailTo = 'contato@intertechrio.com.br';
+        //$mailTo = 'fernando@dec9.com.br';
 
         //Load librarie and config
         $sendmail = \Config\Services::email();
         $sendmail->setTo($mailTo);
-        $sendmail->setFrom('mailto@intertechrio.com.br', 'Intertech Rio');
-        $sendmail->setSubject("Contato - LP Controlador de temperatura west 6100");
+        $sendmail->setFrom("$email", 'Intertech Rio');
+        $sendmail->setSubject("Contato - LP Controlador de temperatura west 6100 - Lead Form CTA WHATSAPP");
         $sendmail->setMessage($body);
         $return = $sendmail->send();
         if ($return) {
-            echo "TRUE";
+            header('location:https://wa.me/5521996072513?text=Gostaria%20de%20informações%20sobre%20o%20produto%20CONTROLADOR%20DE%20TEMPERATURA%20E%20PROCESSOS%20WEST%206100+%20|%20P6100+');
         } else {
-            echo "FALSE";
+            $data = array(
+                'message' => "Algo deu errado, dados não enviados!",
+            );
+            echo view('send/return', $data);
             //DEBUG MAIL 
            /* $data = $sendmail->printDebugger(['headers']);
             print_r($data); */
@@ -98,4 +109,6 @@ class Home extends BaseController
         //$email->attach($filename);
         
     }
+
+
 }

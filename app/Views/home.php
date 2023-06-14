@@ -845,7 +845,7 @@
 
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <form class="needs-validation" id="frm-contact" novalidate>
+                                <form class="needs-validation" id="frm-contact" action="<?php echo base_url('contato'); ?>" method="POST" novalidate>
                                     <div class="row">
                                         <div class="col-12 mb-3">
                                             <label for="name-contact">Qual o seu nome completo?</label>
@@ -880,7 +880,6 @@
                                     <br>
                                     <p class="text-center"><button type="submit" class="cmn-btn">Enviar</button></p>
                                 </form>
-                                <div class="msg mt-5"></div>
                             </div>
 
                         </div>
@@ -922,7 +921,7 @@
                     <p>Olá! Que tal receber um orçamento sem compromisso? Por favor,
                         informe seu nome, e-mail corporativo, CNPJ e telefone.</p>
                     <br>                    
-                    <form class="form-cta-wpp needs-validation" id="form-cta-wpp" novalidate>
+                    <form class="form-cta-wpp needs-validation" action="<?php echo base_url('contato-wpp'); ?>" method="POST" id="form-cta-wpp" novalidate>
                         <div class="mb-3">
                             <input type="text" name="name" class="form-control" id="name-form-cta-wpp"
                                 placeholder="Nome Completo *" aria-describedby="emailHelp" required>
@@ -946,7 +945,6 @@
                         <button type="submit" class="btn btn-primary d-flex justify-content-end"
                             id="btn-form-cta-wpp">Iniciar conversa</button>
                     </form>
-                    <div class="msg mt-5 mb-3"></div>
                 </div>
             </div>
         </div>
