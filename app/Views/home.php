@@ -921,28 +921,32 @@
                 <div class="modal-body">
                     <p>Olá! Que tal receber um orçamento sem compromisso? Por favor,
                         informe seu nome, e-mail corporativo, CNPJ e telefone.</p>
-                    <br>
-                    <form class="form-cta-wpp" id="form-cta-wpp" action="send.php">
+                    <br>                    
+                    <form class="form-cta-wpp needs-validation" id="form-cta-wpp" novalidate>
                         <div class="mb-3">
                             <input type="text" name="name" class="form-control" id="name-form-cta-wpp"
                                 placeholder="Nome Completo *" aria-describedby="emailHelp" required>
+                            <div class="invalid-feedback">Este campo é obrigatório</div>
                         </div>
                         <div class="mb-3">
                             <input type="email" name="email" class="form-control" id="email-form-cta-wpp"
                                 placeholder="E-mail corporativo *" required>
+                            <div class="invalid-feedback">Este campo é obrigatório</div>
                         </div>
                         <div class="mb-3">
                             <input type="text" name="cnpj" class="form-control cnpj-form-cta-wpp" id="cnpj-form-cta-wpp"
                                 placeholder="CNPJ" required>
+                            <div class="invalid-feedback">Este campo é obrigatório</div>
                         </div>
                         <div class="mb-3">
                             <input type="text" name="phone" class="form-control telefone-form-cta-wpp"
                                 id="telefone-form-cta-wpp" placeholder="Telefone *" id="phone" required>
+                            <div class="invalid-feedback">Este campo é obrigatório</div>
                         </div>
                         <button type="submit" class="btn btn-primary d-flex justify-content-end"
-                            id="btn-form-cta-wpp">Iniciar
-                            conversa</button>
+                            id="btn-form-cta-wpp">Iniciar conversa</button>
                     </form>
+                    <div class="msg mt-5 mb-3"></div>
                 </div>
             </div>
         </div>
