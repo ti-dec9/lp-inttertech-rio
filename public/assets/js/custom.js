@@ -29,37 +29,45 @@ $(document).ready(function () {
     // Example starter JavaScript for disabling form submissions if there are invalid fields
     'use strict'
 
-    /* FORM CONTACT */
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    const forms = document.querySelectorAll('.needs-validation');
+    $('.recaptcha-error-form-contact').hide();
+    $('.recaptcha-error-form-cta').hide();
 
-    // Loop over them and prevent submission
-    Array.from(forms).forEach(form => {
-        form.addEventListener('submit', event => {
-            if (!form.checkValidity()) {
-                event.preventDefault()
-                event.stopPropagation()
-            }
-            form.classList.add('was-validated')
-        }, false)
+    /* FORM CONTACT */      
+    $('.needs-validation').validate({
+        submitHandler: function (form) {
+          var response = grecaptcha.getResponse();
+          console.log(response);
+          //recaptcha failed validation
+          if (response.length == 0) {
+            $('.recaptcha-error-form-contact').show();
+            return false;
+          }
+            //recaptcha passed validation
+          else {
+            $('.recaptcha-error-form-contact').hide();
+            return true;
+          }
+        }
     });
 
 
     /* FORM CTA WPP */
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    const formsCta = document.querySelectorAll('#form-cta-wpp');
-
-    // Loop over them and prevent submission
-    Array.from(formsCta).forEach(form => {
-        form.addEventListener('submit', event => {
-            if (!form.checkValidity()) {
-                event.preventDefault()
-                event.stopPropagation()
-            } 
-            form.classList.add('was-validated')
-        }, false)
+    $('#form-cta-wpp').validate({
+        submitHandler: function (form) {
+          var response = grecaptcha.getResponse();
+          console.log(response);
+          //recaptcha failed validation
+          if (response.length == 0) {
+            $('.recaptcha-error-form-cta').show();
+            return false;
+          }
+            //recaptcha passed validation
+          else {
+            $('.recaptcha-error-form-cta').hide();
+            return true;
+          }
+        }
     });
-
 
     /************************
     * VALIDATION FUNCTION

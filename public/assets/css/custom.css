@@ -43,8 +43,9 @@
 }
 
 .cta-wpp i {
-    position:relative;
-    top: calc(50% - 14.5px); /* 50% - 3/4 of icon height */
+    position: relative;
+    top: calc(50% - 14.5px);
+    /* 50% - 3/4 of icon height */
 }
 
 .cta-wpp i:focus {
@@ -52,7 +53,7 @@
 }
 
 #cta-modal .modal-content .modal-header {
-    background-color: #0B6156;    
+    background-color: #0B6156;
 }
 
 #cta-modal .modal-content .modal-header p,
@@ -77,13 +78,22 @@
     font-size: 1rem;
 }
 
-#cta-modal .modal-body .form-cta-wpp input::placeholder { 
+#cta-modal .modal-body .form-cta-wpp input::placeholder {
     font-weight: 300;
     font-size: 0.8rem;
 }
 
 #cta-modal .btn-primary {
-    background-color: #0B6156; 
+    background-color: #0B6156;
     font-weight: 400;
     font-size: 0.9rem;
+}
+
+.g-recaptcha {
+    width: 302px;
+    margin: auto;
+}
+
+.error {
+    color: red;
 }

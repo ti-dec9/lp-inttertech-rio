@@ -640,7 +640,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-7 col-md-6">
                         <div class="section-header text-center">
-                            <h2 class="title">Seguimentos</h2>
+                            <h2 class="title">Segmentos</h2>
                         </div>
                     </div>
                 </div>
@@ -851,32 +851,35 @@
                                             <label for="name-contact">Qual o seu nome completo?</label>
                                             <input type="text" name="name" id="name-contact" class="form-control" placeholder="Digite aqui o seu nome completo" required>
                                             <!-- <div class="valid-feedback">Username field is valid!</div> -->
-                                            <div class="invalid-feedback">Este campo é obrigatório</div>
                                         </div>
                                         <div class="col-12 mb-3">
                                             <label for="email-contact">Qual o seu e-mail corporativo?</label>
                                             <input type="email" name="email" id="email-contact" class="form-control" placeholder="Digite aqui o seu email" required>
-                                            <div class="invalid-feedback">Este campo é obrigatório</div>
                                         </div>
                                         <div class="col-12 mb-3">
                                             <div class="form-group">
                                                 <label for="phone-contact">Qual o seu telefone (se tiver Whatsapp, melhor)?</label>
                                                 <input type="text" name="phone" class="telefone-form-cta-wpp form-control" id="phone-contact" placeholder="" required>
-                                                <div class="invalid-feedback">Este campo é obrigatório</div>
                                             </div>
                                         </div>
                                         <div class="col-12 mb-3">
                                             <label for="cnpj-contact">Qual o CNPJ da sua empresa?</label>
                                             <input type="text" name="cnpj" class="cnpj-form-cta-wpp form-control" id="cnpj-contact" placeholder="" required>
-                                            <div class="invalid-feedback">Este campo é obrigatório</div>
                                         </div>
                                         <div class="col-12 mb-3">
                                             <label for="form-message">Mensagem</label>
                                             <textarea id="form-message" name="message" cols="30" rows="5" class="form-control" required></textarea>
-                                            <div class="invalid-feedback">Este campo é obrigatório</div>
                                         </div>
                                     </div>
                                     <p>Clicando abaixo, o nosso time comercial vai emitir a <strong>proposta e enviar para o seu e-mail nos próximos minutos.</strong></p>
+                                    <br>
+                                    <!-- RECAPTCHA -->
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="g-recaptcha" id="g-recaptcha-form" data-sitekey="6LdX6LgmAAAAADFdW1XUaG_CRfzenPRRsphrmQA4"></div>    
+                                            <p class="text-center"><label class="recaptcha-error-form-contact" style="color: red;">Preencha o recaptcha</label></p>                             
+                                        </div>
+                                    </div>                                    
                                     <br>
                                     <p class="text-center"><button type="submit" class="cmn-btn">Enviar</button></p>
                                 </form>
@@ -925,23 +928,23 @@
                         <div class="mb-3">
                             <input type="text" name="name" class="form-control" id="name-form-cta-wpp"
                                 placeholder="Nome Completo *" aria-describedby="emailHelp" required>
-                            <div class="invalid-feedback">Este campo é obrigatório</div>
                         </div>
                         <div class="mb-3">
                             <input type="email" name="email" class="form-control" id="email-form-cta-wpp"
                                 placeholder="E-mail corporativo *" required>
-                            <div class="invalid-feedback">Este campo é obrigatório</div>
                         </div>
                         <div class="mb-3">
                             <input type="text" name="cnpj" class="form-control cnpj-form-cta-wpp" id="cnpj-form-cta-wpp"
                                 placeholder="CNPJ" required>
-                            <div class="invalid-feedback">Este campo é obrigatório</div>
                         </div>
                         <div class="mb-3">
                             <input type="text" name="phone" class="form-control telefone-form-cta-wpp"
                                 id="telefone-form-cta-wpp" placeholder="Telefone *" id="phone" required>
-                            <div class="invalid-feedback">Este campo é obrigatório</div>
                         </div>
+                        <br>
+                        <!-- <div class="g-recaptcha" id="g-recaptcha-cta" data-sitekey="6LdX6LgmAAAAADFdW1XUaG_CRfzenPRRsphrmQA4"></div>    
+                        <label class="recaptcha-error-form-cta text-center" style="color: red;">Preencha o recaptcha</label>   
+                        <br> -->
                         <button type="submit" class="btn btn-primary d-flex justify-content-end"
                             id="btn-form-cta-wpp">Iniciar conversa</button>
                     </form>
@@ -988,8 +991,11 @@
     <script src="assets/js/plugin/owl/owl.carousel.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/custom.js?v=<?php echo md5(time()); ?>"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/localization/messages_pt_BR.min.js"></script>
     <script src="https://kit.fontawesome.com/78bb8de998.js" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script>
         $(".cta-wpp").on('click', function() {
             console.log('cta-wpp clicked');
@@ -1000,6 +1006,20 @@
             keepStatic: true
         });
         $('.cnpj-form-cta-wpp').inputmask('99.999.999/9999-99');
+
+        $(function() {
+            var param_recaptcha = getSearchParams('recaptcha');
+            if (param_recaptcha == 'false') {
+                Swal.fire('O recaptcha deve ser preenchido');
+            }
+            //console.log(param_recaptcha );
+
+            function getSearchParams(k){
+                var p={};
+                location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(s,k,v){p[k]=v})
+                return k?p[k]:p;
+            }
+        });
     </script>
 </body>
 
