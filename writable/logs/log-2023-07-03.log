@@ -1,0 +1,48 @@
+CRITICAL - 2023-07-03 23:26:55 --> Illegal string offset 'success'
+in APPPATH\Controllers\Home.php on line 109.
+ 1 APPPATH\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'success\'', 'C:\\xampp\\htdocs\\lp-inttertech-rio\\app\\Controllers\\Home.php', 109, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->contato()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lp-inttertech-rio\\public\\index.php')
+CRITICAL - 2023-07-03 23:27:33 --> Illegal string offset 'success'
+in APPPATH\Controllers\Home.php on line 109.
+ 1 APPPATH\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'success\'', 'C:\\xampp\\htdocs\\lp-inttertech-rio\\app\\Controllers\\Home.php', 109, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->contato()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lp-inttertech-rio\\public\\index.php')
+CRITICAL - 2023-07-03 23:29:12 --> Illegal string offset 'success'
+in APPPATH\Controllers\Home.php on line 109.
+ 1 APPPATH\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'success\'', 'C:\\xampp\\htdocs\\lp-inttertech-rio\\app\\Controllers\\Home.php', 109, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->contato()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lp-inttertech-rio\\public\\index.php')
+CRITICAL - 2023-07-03 23:29:58 --> Illegal string offset 'success'
+in APPPATH\Controllers\Home.php on line 110.
+ 1 APPPATH\Controllers\Home.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'success\'', 'C:\\xampp\\htdocs\\lp-inttertech-rio\\app\\Controllers\\Home.php', 110, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->contato()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lp-inttertech-rio\\public\\index.php')
+CRITICAL - 2023-07-03 23:32:34 --> Illegal string offset 'success'
+in APPPATH\Controllers\Home.php on line 115.
+ 1 APPPATH\Controllers\Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'success\'', 'C:\\xampp\\htdocs\\lp-inttertech-rio\\app\\Controllers\\Home.php', 115, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->contato()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lp-inttertech-rio\\public\\index.php')
+CRITICAL - 2023-07-03 23:34:21 --> Illegal string offset 'success'
+in APPPATH\Controllers\Home.php on line 114.
+ 1 APPPATH\Controllers\Home.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'success\'', 'C:\\xampp\\htdocs\\lp-inttertech-rio\\app\\Controllers\\Home.php', 114, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->contato()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lp-inttertech-rio\\public\\index.php')

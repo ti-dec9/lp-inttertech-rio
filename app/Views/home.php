@@ -174,7 +174,7 @@
                 <div class="row align-items-center justify-content-end">
                     <div class="col-xxl-6 col-lg-6 order-lg-0 order-1">
                         <div class="sec-img">
-                            <img src="assets/images/Controladores-de-Temperatura-e-Processos-P6100-West.avif"
+                            <img src="assets/images/Controladores-de-Temperatura-e-Processos-P6100-West.jpg"
                                 loading="lazy" alt="image">
                         </div>
                         <p class="text-center">
@@ -218,7 +218,7 @@
                     <div class="col-lg-12">
                         <p><strong>Para especificar um controlador de temperatura West 6100+, são necessárias as
                                 seguintes informações:</strong></p>
-                        <p class="color-blue mt-3"><strong>Codificações</strong></p>
+                        <p class="color-blue mt-3"><strong>Codificação</strong></p>
                         <div class="table-responsive">
                             <table class="table table-bordered">
                                 <thead>
@@ -800,13 +800,12 @@
                                         <span>West</span>
                                     </li>
                                     <li>
-                                        <span>Modelo::</span>
+                                        <span>Modelo:</span>
                                         <span>6100+</span>
                                     </li>
                                 </ul>
                                 <div class="btn-area mt-4 d-flex gap-4 align-items-center">
-                                    <a href="#contato" class="cmn-btn"><i class="icon-f-cart text-white"></i>&nbsp;Faça
-                                        uma cotação</a>
+                                    <a href="#contato" class="cmn-btn"><i class="icon-f-cart text-white"></i>&nbsp;Faça uma cotação</a>
                                 </div>
                             </div>
                         </div>
@@ -875,7 +874,7 @@
                                     <br>
                                     <!-- RECAPTCHA -->
                                     <div class="row">
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-12">
                                             <div class="g-recaptcha" id="g-recaptcha-form" data-sitekey="6LdX6LgmAAAAADFdW1XUaG_CRfzenPRRsphrmQA4"></div>    
                                             <p class="text-center"><label class="recaptcha-error-form-contact" style="color: red;">Preencha o recaptcha</label></p>                             
                                         </div>

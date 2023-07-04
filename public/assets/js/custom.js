@@ -1,7 +1,7 @@
 $(document).ready(function () {
-    BASE_URL = window.location.origin + '/lp/controlador-de-temperatura-west-6100/';
+    //BASE_URL = window.location.origin + '/lp/controlador-de-temperatura-west-6100/';
     //HOMOLOG
-    //BASE_URL = window.location.origin + '/lp-inttertech-rio/';
+    BASE_URL = window.location.origin + '/lp-inttertech-rio/';
 
     $('.owl-carousel').owlCarousel({
         loop: true,
